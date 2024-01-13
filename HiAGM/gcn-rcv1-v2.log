@@ -1,0 +1,1366 @@
+2024/01/12 06:01:50 - INFO : Building Vocabulary....
+2024/01/12 06:01:50 - INFO : Generating Vocabulary from Corpus...
+2024/01/12 06:43:11 - INFO : Building Vocabulary....
+2024/01/12 06:43:11 - INFO : Generating Vocabulary from Corpus...
+2024/01/12 06:43:11 - INFO : Loading vocabulary from pretrained embedding...
+2024/01/12 06:43:24 - INFO : Loading TRAIN subset...
+2024/01/12 06:43:24 - INFO : Loading VAL subset...
+2024/01/12 06:43:24 - INFO : Loading TEST subset...
+2024/01/12 06:43:24 - INFO : Vocabulary of token 400685
+2024/01/12 06:43:24 - INFO : Vocabulary of label 40
+2024/01/12 06:43:24 - INFO : Shrinking Vocabulary...
+2024/01/12 06:43:25 - INFO : Shrinking Vocabulary of tokens: 50000
+2024/01/12 06:43:25 - INFO : Vocabulary of token with the size of 50002
+2024/01/12 06:43:25 - INFO : Save Vocabulary in vocab/word.dict
+2024/01/12 06:43:25 - INFO : Vocabulary of label with the size of 40
+2024/01/12 06:43:25 - INFO : Save Vocabulary in vocab/label.dict
+2024/01/12 06:43:25 - INFO : Loading 300-dimension token embedding from pretrained file: ../glove.6B/glove.6B.300d.txt
+2024/01/12 06:43:45 - INFO : Total vocab size of token is 50002.
+2024/01/12 06:43:45 - INFO : Pretrained vocab embedding has 49965 / 50002
+2024/01/12 06:43:58 - INFO : TRAIN performance at epoch 0 --- Precision: 0.245283, Recall: 0.333333, Micro-F1: 0.282609, Macro-F1: 0.055629, Loss: 0.663064.
+
+2024/01/12 06:43:59 - INFO : DEV performance at epoch 0 --- Precision: 0.062500, Recall: 0.111111, Micro-F1: 0.080000, Macro-F1: 0.013636, Loss: 0.666703.
+
+2024/01/12 06:43:59 - INFO : Improve Micro-F1 0.0% --> 0.08%
+2024/01/12 06:44:00 - INFO : Improve Macro-F1 0.0% --> 0.013636363636363636%
+2024/01/12 06:44:02 - INFO : Epoch 0 Time Cost 5.935680866241455 secs.
+2024/01/12 06:44:04 - INFO : TRAIN performance at epoch 1 --- Precision: 0.312500, Recall: 0.128205, Micro-F1: 0.181818, Macro-F1: 0.016667, Loss: 0.629654.
+
+2024/01/12 06:44:05 - INFO : DEV performance at epoch 1 --- Precision: 0.105263, Recall: 0.074074, Micro-F1: 0.086957, Macro-F1: 0.008333, Loss: 0.635379.
+
+2024/01/12 06:44:05 - INFO : Improve Micro-F1 0.08% --> 0.08695652173913043%
+2024/01/12 06:44:09 - INFO : Epoch 1 Time Cost 7.426697731018066 secs.
+2024/01/12 06:44:11 - INFO : TRAIN performance at epoch 2 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.597686.
+
+2024/01/12 06:44:12 - INFO : DEV performance at epoch 2 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.605413.
+
+2024/01/12 06:44:12 - INFO : Improve Micro-F1 0.08695652173913043% --> 0.10810810810810811%
+2024/01/12 06:44:14 - INFO : Epoch 2 Time Cost 5.431879997253418 secs.
+2024/01/12 06:44:17 - INFO : TRAIN performance at epoch 3 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.565196.
+
+2024/01/12 06:44:18 - INFO : DEV performance at epoch 3 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.574802.
+
+2024/01/12 06:44:18 - INFO : Epoch 3 Time Cost 3.2415547370910645 secs.
+2024/01/12 06:44:20 - INFO : TRAIN performance at epoch 4 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.532879.
+
+2024/01/12 06:44:21 - INFO : DEV performance at epoch 4 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.544050.
+
+2024/01/12 06:44:21 - INFO : Epoch 4 Time Cost 3.261648178100586 secs.
+2024/01/12 06:44:23 - INFO : TRAIN performance at epoch 5 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.501411.
+
+2024/01/12 06:44:24 - INFO : DEV performance at epoch 5 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.513799.
+
+2024/01/12 06:44:24 - INFO : Epoch 5 Time Cost 3.2646121978759766 secs.
+2024/01/12 06:44:26 - INFO : TRAIN performance at epoch 6 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.471789.
+
+2024/01/12 06:44:27 - INFO : DEV performance at epoch 6 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.485099.
+
+2024/01/12 06:44:27 - INFO : Epoch 6 Time Cost 3.2973384857177734 secs.
+2024/01/12 06:44:30 - INFO : TRAIN performance at epoch 7 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.444798.
+
+2024/01/12 06:44:31 - INFO : DEV performance at epoch 7 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.458805.
+
+2024/01/12 06:44:31 - INFO : Epoch 7 Time Cost 3.338168144226074 secs.
+2024/01/12 06:44:33 - INFO : TRAIN performance at epoch 8 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.421440.
+
+2024/01/12 06:44:34 - INFO : DEV performance at epoch 8 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.436176.
+
+2024/01/12 06:44:34 - INFO : Epoch 8 Time Cost 3.3257312774658203 secs.
+2024/01/12 06:44:36 - INFO : TRAIN performance at epoch 9 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.402021.
+
+2024/01/12 06:44:37 - INFO : DEV performance at epoch 9 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.417359.
+
+2024/01/12 06:44:37 - INFO : Epoch 9 Time Cost 3.1927592754364014 secs.
+2024/01/12 06:44:40 - INFO : TRAIN performance at epoch 10 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.386256.
+
+2024/01/12 06:44:41 - INFO : DEV performance at epoch 10 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.402034.
+
+2024/01/12 06:44:41 - INFO : Epoch 10 Time Cost 3.268627405166626 secs.
+2024/01/12 06:44:43 - INFO : TRAIN performance at epoch 11 --- Precision: 0.454545, Recall: 0.128205, Micro-F1: 0.200000, Macro-F1: 0.016667, Loss: 0.373636.
+
+2024/01/12 06:44:44 - INFO : DEV performance at epoch 11 --- Precision: 0.363636, Recall: 0.148148, Micro-F1: 0.210526, Macro-F1: 0.023377, Loss: 0.389774.
+
+2024/01/12 06:44:44 - INFO : Improve Micro-F1 0.10810810810810811% --> 0.21052631578947367%
+2024/01/12 06:44:46 - INFO : Improve Macro-F1 0.013636363636363636% --> 0.023376623376623377%
+2024/01/12 06:44:49 - INFO : Epoch 11 Time Cost 8.773524045944214 secs.
+2024/01/12 06:44:52 - INFO : TRAIN performance at epoch 12 --- Precision: 0.500000, Recall: 0.051282, Micro-F1: 0.093023, Macro-F1: 0.012500, Loss: 0.364572.
+
+2024/01/12 06:44:53 - INFO : DEV performance at epoch 12 --- Precision: 0.500000, Recall: 0.111111, Micro-F1: 0.181818, Macro-F1: 0.022619, Loss: 0.381675.
+
+2024/01/12 06:44:53 - INFO : Epoch 12 Time Cost 3.3143136501312256 secs.
+2024/01/12 06:44:55 - INFO : TRAIN performance at epoch 13 --- Precision: 0.500000, Recall: 0.025641, Micro-F1: 0.048780, Macro-F1: 0.008333, Loss: 0.358232.
+
+2024/01/12 06:44:56 - INFO : DEV performance at epoch 13 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.014286, Loss: 0.376302.
+
+2024/01/12 06:44:56 - INFO : Epoch 13 Time Cost 3.304008722305298 secs.
+2024/01/12 06:44:58 - INFO : TRAIN performance at epoch 14 --- Precision: 0.444444, Recall: 0.102564, Micro-F1: 0.166667, Macro-F1: 0.015385, Loss: 0.354217.
+
+2024/01/12 06:44:59 - INFO : DEV performance at epoch 14 --- Precision: 0.375000, Recall: 0.111111, Micro-F1: 0.171429, Macro-F1: 0.011538, Loss: 0.373013.
+
+2024/01/12 06:44:59 - INFO : Epoch 14 Time Cost 3.3092386722564697 secs.
+2024/01/12 06:45:01 - INFO : TRAIN performance at epoch 15 --- Precision: 0.400000, Recall: 0.102564, Micro-F1: 0.163265, Macro-F1: 0.014286, Loss: 0.352212.
+
+2024/01/12 06:45:02 - INFO : DEV performance at epoch 15 --- Precision: 0.500000, Recall: 0.185185, Micro-F1: 0.270270, Macro-F1: 0.016667, Loss: 0.372125.
+
+2024/01/12 06:45:02 - INFO : Improve Micro-F1 0.21052631578947367% --> 0.2702702702702703%
+2024/01/12 06:45:05 - INFO : Epoch 15 Time Cost 5.314734935760498 secs.
+2024/01/12 06:45:07 - INFO : TRAIN performance at epoch 16 --- Precision: 0.444444, Recall: 0.102564, Micro-F1: 0.166667, Macro-F1: 0.015385, Loss: 0.352051.
+
+2024/01/12 06:45:08 - INFO : DEV performance at epoch 16 --- Precision: 0.500000, Recall: 0.185185, Micro-F1: 0.270270, Macro-F1: 0.016667, Loss: 0.373190.
+
+2024/01/12 06:45:08 - INFO : Epoch 16 Time Cost 3.2723703384399414 secs.
+2024/01/12 06:45:10 - INFO : TRAIN performance at epoch 17 --- Precision: 0.571429, Recall: 0.102564, Micro-F1: 0.173913, Macro-F1: 0.018182, Loss: 0.353636.
+
+2024/01/12 06:45:11 - INFO : DEV performance at epoch 17 --- Precision: 0.428571, Recall: 0.111111, Micro-F1: 0.176471, Macro-F1: 0.012500, Loss: 0.376285.
+
+2024/01/12 06:45:11 - INFO : Epoch 17 Time Cost 3.2682058811187744 secs.
+2024/01/12 06:45:13 - INFO : TRAIN performance at epoch 18 --- Precision: 0.500000, Recall: 0.025641, Micro-F1: 0.048780, Macro-F1: 0.008333, Loss: 0.355516.
+
+2024/01/12 06:45:15 - INFO : DEV performance at epoch 18 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.014286, Loss: 0.379403.
+
+2024/01/12 06:45:15 - INFO : Epoch 18 Time Cost 3.560821771621704 secs.
+2024/01/12 06:45:17 - INFO : TRAIN performance at epoch 19 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.357530.
+
+2024/01/12 06:45:18 - INFO : DEV performance at epoch 19 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.008333, Loss: 0.382473.
+
+2024/01/12 06:45:18 - INFO : Epoch 19 Time Cost 3.3510818481445312 secs.
+2024/01/12 06:45:20 - INFO : TRAIN performance at epoch 20 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.360730.
+
+2024/01/12 06:45:21 - INFO : DEV performance at epoch 20 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.386824.
+
+2024/01/12 06:45:21 - INFO : Epoch 20 Time Cost 3.334300994873047 secs.
+2024/01/12 06:45:24 - INFO : TRAIN performance at epoch 21 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.363897.
+
+2024/01/12 06:45:25 - INFO : DEV performance at epoch 21 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.391242.
+
+2024/01/12 06:45:25 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:45:25 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:45:26 - INFO : Epoch 21 Time Cost 4.4507904052734375 secs.
+2024/01/12 06:45:28 - INFO : TRAIN performance at epoch 22 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.367482.
+
+2024/01/12 06:45:29 - INFO : DEV performance at epoch 22 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.395934.
+
+2024/01/12 06:45:29 - INFO : Epoch 22 Time Cost 3.264753818511963 secs.
+2024/01/12 06:45:32 - INFO : TRAIN performance at epoch 23 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.371024.
+
+2024/01/12 06:45:33 - INFO : DEV performance at epoch 23 --- Precision: 0.000000, Recall: 0.000000, Micro-F1: 0.000000, Macro-F1: 0.000000, Loss: 0.400381.
+
+2024/01/12 06:45:33 - INFO : Epoch 23 Time Cost 3.7191250324249268 secs.
+2024/01/12 06:45:35 - INFO : TRAIN performance at epoch 24 --- Precision: 1.000000, Recall: 0.025641, Micro-F1: 0.050000, Macro-F1: 0.008333, Loss: 0.374609.
+
+2024/01/12 06:45:36 - INFO : DEV performance at epoch 24 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.404799.
+
+2024/01/12 06:45:36 - INFO : Epoch 24 Time Cost 3.5440807342529297 secs.
+2024/01/12 06:45:39 - INFO : TRAIN performance at epoch 25 --- Precision: 1.000000, Recall: 0.102564, Micro-F1: 0.186047, Macro-F1: 0.022222, Loss: 0.377345.
+
+2024/01/12 06:45:40 - INFO : DEV performance at epoch 25 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.408348.
+
+2024/01/12 06:45:40 - INFO : Epoch 25 Time Cost 3.420431613922119 secs.
+2024/01/12 06:45:42 - INFO : TRAIN performance at epoch 26 --- Precision: 0.625000, Recall: 0.128205, Micro-F1: 0.212766, Macro-F1: 0.019231, Loss: 0.379625.
+
+2024/01/12 06:45:43 - INFO : DEV performance at epoch 26 --- Precision: 0.250000, Recall: 0.074074, Micro-F1: 0.114286, Macro-F1: 0.010000, Loss: 0.411414.
+
+2024/01/12 06:45:43 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:45:43 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:45:43 - INFO : Epoch 26 Time Cost 3.361140489578247 secs.
+2024/01/12 06:45:46 - INFO : TRAIN performance at epoch 27 --- Precision: 0.555556, Recall: 0.128205, Micro-F1: 0.208333, Macro-F1: 0.017857, Loss: 0.382371.
+
+2024/01/12 06:45:47 - INFO : DEV performance at epoch 27 --- Precision: 0.250000, Recall: 0.074074, Micro-F1: 0.114286, Macro-F1: 0.010000, Loss: 0.414783.
+
+2024/01/12 06:45:47 - INFO : Epoch 27 Time Cost 3.799955129623413 secs.
+2024/01/12 06:45:49 - INFO : TRAIN performance at epoch 28 --- Precision: 0.555556, Recall: 0.128205, Micro-F1: 0.208333, Macro-F1: 0.017857, Loss: 0.385109.
+
+2024/01/12 06:45:50 - INFO : DEV performance at epoch 28 --- Precision: 0.222222, Recall: 0.074074, Micro-F1: 0.111111, Macro-F1: 0.009091, Loss: 0.418172.
+
+2024/01/12 06:45:50 - INFO : Epoch 28 Time Cost 3.347977876663208 secs.
+2024/01/12 06:45:53 - INFO : TRAIN performance at epoch 29 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.387515.
+
+2024/01/12 06:45:54 - INFO : DEV performance at epoch 29 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.421163.
+
+2024/01/12 06:45:54 - INFO : Epoch 29 Time Cost 3.2730534076690674 secs.
+2024/01/12 06:45:56 - INFO : TRAIN performance at epoch 30 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.388879.
+
+2024/01/12 06:45:57 - INFO : DEV performance at epoch 30 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.422965.
+
+2024/01/12 06:45:57 - INFO : Epoch 30 Time Cost 3.35184645652771 secs.
+2024/01/12 06:45:59 - INFO : TRAIN performance at epoch 31 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.389693.
+
+2024/01/12 06:46:00 - INFO : DEV performance at epoch 31 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.424191.
+
+2024/01/12 06:46:00 - WARNING : Performance has not been improved for 15 epochs, updating learning rate
+2024/01/12 06:46:00 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:46:02 - INFO : Epoch 31 Time Cost 4.688905954360962 secs.
+2024/01/12 06:46:04 - INFO : TRAIN performance at epoch 32 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.390111.
+
+2024/01/12 06:46:05 - INFO : DEV performance at epoch 32 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.424928.
+
+2024/01/12 06:46:05 - INFO : Epoch 32 Time Cost 3.20780611038208 secs.
+2024/01/12 06:46:07 - INFO : TRAIN performance at epoch 33 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.389969.
+
+2024/01/12 06:46:08 - INFO : DEV performance at epoch 33 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.425211.
+
+2024/01/12 06:46:08 - INFO : Epoch 33 Time Cost 3.3127121925354004 secs.
+2024/01/12 06:46:10 - INFO : TRAIN performance at epoch 34 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.389550.
+
+2024/01/12 06:46:11 - INFO : DEV performance at epoch 34 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.425257.
+
+2024/01/12 06:46:11 - INFO : Epoch 34 Time Cost 3.3774824142456055 secs.
+2024/01/12 06:46:14 - INFO : TRAIN performance at epoch 35 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.388747.
+
+2024/01/12 06:46:15 - INFO : DEV performance at epoch 35 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.424924.
+
+2024/01/12 06:46:15 - INFO : Epoch 35 Time Cost 3.2144079208374023 secs.
+2024/01/12 06:46:17 - INFO : TRAIN performance at epoch 36 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.387963.
+
+2024/01/12 06:46:18 - INFO : DEV performance at epoch 36 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.424724.
+
+2024/01/12 06:46:18 - WARNING : Performance has not been improved for 20 epochs, updating learning rate
+2024/01/12 06:46:18 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:46:18 - INFO : Epoch 36 Time Cost 3.557407855987549 secs.
+2024/01/12 06:46:20 - INFO : TRAIN performance at epoch 37 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.387354.
+
+2024/01/12 06:46:22 - INFO : DEV performance at epoch 37 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.424614.
+
+2024/01/12 06:46:22 - INFO : Epoch 37 Time Cost 3.242314100265503 secs.
+2024/01/12 06:46:24 - INFO : TRAIN performance at epoch 38 --- Precision: 0.500000, Recall: 0.128205, Micro-F1: 0.204082, Macro-F1: 0.016667, Loss: 0.385962.
+
+2024/01/12 06:46:25 - INFO : DEV performance at epoch 38 --- Precision: 0.200000, Recall: 0.074074, Micro-F1: 0.108108, Macro-F1: 0.008333, Loss: 0.423695.
+
+2024/01/12 06:46:25 - INFO : Epoch 38 Time Cost 3.201380968093872 secs.
+2024/01/12 06:46:27 - INFO : TRAIN performance at epoch 39 --- Precision: 0.555556, Recall: 0.128205, Micro-F1: 0.208333, Macro-F1: 0.017857, Loss: 0.384396.
+
+2024/01/12 06:46:28 - INFO : DEV performance at epoch 39 --- Precision: 0.250000, Recall: 0.074074, Micro-F1: 0.114286, Macro-F1: 0.010000, Loss: 0.422560.
+
+2024/01/12 06:46:28 - INFO : Epoch 39 Time Cost 3.317189931869507 secs.
+2024/01/12 06:46:30 - INFO : TRAIN performance at epoch 40 --- Precision: 0.555556, Recall: 0.128205, Micro-F1: 0.208333, Macro-F1: 0.017857, Loss: 0.382551.
+
+2024/01/12 06:46:31 - INFO : DEV performance at epoch 40 --- Precision: 0.250000, Recall: 0.074074, Micro-F1: 0.114286, Macro-F1: 0.010000, Loss: 0.421158.
+
+2024/01/12 06:46:31 - INFO : Epoch 40 Time Cost 3.228513479232788 secs.
+2024/01/12 06:46:34 - INFO : TRAIN performance at epoch 41 --- Precision: 0.625000, Recall: 0.128205, Micro-F1: 0.212766, Macro-F1: 0.019231, Loss: 0.380177.
+
+2024/01/12 06:46:35 - INFO : DEV performance at epoch 41 --- Precision: 0.250000, Recall: 0.074074, Micro-F1: 0.114286, Macro-F1: 0.010000, Loss: 0.419162.
+
+2024/01/12 06:46:35 - WARNING : Performance has not been improved for 25 epochs, updating learning rate
+2024/01/12 06:46:35 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:46:36 - INFO : Epoch 41 Time Cost 4.672924995422363 secs.
+2024/01/12 06:46:38 - INFO : TRAIN performance at epoch 42 --- Precision: 0.833333, Recall: 0.128205, Micro-F1: 0.222222, Macro-F1: 0.022727, Loss: 0.377678.
+
+2024/01/12 06:46:39 - INFO : DEV performance at epoch 42 --- Precision: 0.400000, Recall: 0.074074, Micro-F1: 0.125000, Macro-F1: 0.014286, Loss: 0.417126.
+
+2024/01/12 06:46:39 - INFO : Epoch 42 Time Cost 3.2744719982147217 secs.
+2024/01/12 06:46:42 - INFO : TRAIN performance at epoch 43 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.375310.
+
+2024/01/12 06:46:43 - INFO : DEV performance at epoch 43 --- Precision: 0.400000, Recall: 0.074074, Micro-F1: 0.125000, Macro-F1: 0.014286, Loss: 0.415259.
+
+2024/01/12 06:46:43 - INFO : Epoch 43 Time Cost 3.5342471599578857 secs.
+2024/01/12 06:46:45 - INFO : TRAIN performance at epoch 44 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.372860.
+
+2024/01/12 06:46:46 - INFO : DEV performance at epoch 44 --- Precision: 0.500000, Recall: 0.074074, Micro-F1: 0.129032, Macro-F1: 0.016667, Loss: 0.413307.
+
+2024/01/12 06:46:46 - INFO : Epoch 44 Time Cost 3.226609468460083 secs.
+2024/01/12 06:46:48 - INFO : TRAIN performance at epoch 45 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.370897.
+
+2024/01/12 06:46:50 - INFO : DEV performance at epoch 45 --- Precision: 0.400000, Recall: 0.074074, Micro-F1: 0.125000, Macro-F1: 0.014286, Loss: 0.411893.
+
+2024/01/12 06:46:50 - INFO : Epoch 45 Time Cost 3.5620944499969482 secs.
+2024/01/12 06:46:52 - INFO : TRAIN performance at epoch 46 --- Precision: 0.833333, Recall: 0.128205, Micro-F1: 0.222222, Macro-F1: 0.022727, Loss: 0.368160.
+
+2024/01/12 06:46:53 - INFO : DEV performance at epoch 46 --- Precision: 0.400000, Recall: 0.074074, Micro-F1: 0.125000, Macro-F1: 0.014286, Loss: 0.409700.
+
+2024/01/12 06:46:53 - WARNING : Performance has not been improved for 30 epochs, updating learning rate
+2024/01/12 06:46:53 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:46:53 - INFO : Epoch 46 Time Cost 3.3364436626434326 secs.
+2024/01/12 06:46:55 - INFO : TRAIN performance at epoch 47 --- Precision: 0.714286, Recall: 0.128205, Micro-F1: 0.217391, Macro-F1: 0.020833, Loss: 0.364570.
+
+2024/01/12 06:46:56 - INFO : DEV performance at epoch 47 --- Precision: 0.285714, Recall: 0.074074, Micro-F1: 0.117647, Macro-F1: 0.011111, Loss: 0.406644.
+
+2024/01/12 06:46:56 - INFO : Epoch 47 Time Cost 3.2951161861419678 secs.
+2024/01/12 06:46:58 - INFO : TRAIN performance at epoch 48 --- Precision: 0.833333, Recall: 0.128205, Micro-F1: 0.222222, Macro-F1: 0.022727, Loss: 0.361164.
+
+2024/01/12 06:46:59 - INFO : DEV performance at epoch 48 --- Precision: 0.400000, Recall: 0.074074, Micro-F1: 0.125000, Macro-F1: 0.014286, Loss: 0.403395.
+
+2024/01/12 06:46:59 - INFO : Epoch 48 Time Cost 3.140230178833008 secs.
+2024/01/12 06:47:01 - INFO : TRAIN performance at epoch 49 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.358619.
+
+2024/01/12 06:47:03 - INFO : DEV performance at epoch 49 --- Precision: 0.500000, Recall: 0.074074, Micro-F1: 0.129032, Macro-F1: 0.016667, Loss: 0.401054.
+
+2024/01/12 06:47:03 - INFO : Epoch 49 Time Cost 3.22863507270813 secs.
+2024/01/12 06:47:05 - INFO : TRAIN performance at epoch 50 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.356104.
+
+2024/01/12 06:47:06 - INFO : DEV performance at epoch 50 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.398859.
+
+2024/01/12 06:47:06 - INFO : Epoch 50 Time Cost 3.341055154800415 secs.
+2024/01/12 06:47:08 - INFO : TRAIN performance at epoch 51 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.354202.
+
+2024/01/12 06:47:09 - INFO : DEV performance at epoch 51 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.397031.
+
+2024/01/12 06:47:09 - WARNING : Performance has not been improved for 35 epochs, updating learning rate
+2024/01/12 06:47:09 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:47:11 - INFO : Epoch 51 Time Cost 4.665478706359863 secs.
+2024/01/12 06:47:13 - INFO : TRAIN performance at epoch 52 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.352830.
+
+2024/01/12 06:47:14 - INFO : DEV performance at epoch 52 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.395640.
+
+2024/01/12 06:47:14 - INFO : Improve Macro-F1 0.023376623376623377% --> 0.025%
+2024/01/12 06:47:16 - INFO : Epoch 52 Time Cost 5.335098743438721 secs.
+2024/01/12 06:47:18 - INFO : TRAIN performance at epoch 53 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.032222, Loss: 0.351700.
+
+2024/01/12 06:47:19 - INFO : DEV performance at epoch 53 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.394311.
+
+2024/01/12 06:47:19 - INFO : Epoch 53 Time Cost 3.285207748413086 secs.
+2024/01/12 06:47:21 - INFO : TRAIN performance at epoch 54 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.032222, Loss: 0.350795.
+
+2024/01/12 06:47:23 - INFO : DEV performance at epoch 54 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.393152.
+
+2024/01/12 06:47:23 - INFO : Epoch 54 Time Cost 3.608529567718506 secs.
+2024/01/12 06:47:25 - INFO : TRAIN performance at epoch 55 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.032222, Loss: 0.350488.
+
+2024/01/12 06:47:26 - INFO : DEV performance at epoch 55 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.392673.
+
+2024/01/12 06:47:26 - INFO : Epoch 55 Time Cost 3.289996862411499 secs.
+2024/01/12 06:47:28 - INFO : TRAIN performance at epoch 56 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.032222, Loss: 0.350590.
+
+2024/01/12 06:47:29 - INFO : DEV performance at epoch 56 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.392784.
+
+2024/01/12 06:47:29 - INFO : Epoch 56 Time Cost 3.2561097145080566 secs.
+2024/01/12 06:47:32 - INFO : TRAIN performance at epoch 57 --- Precision: 1.000000, Recall: 0.102564, Micro-F1: 0.186047, Macro-F1: 0.022222, Loss: 0.352016.
+
+2024/01/12 06:47:33 - INFO : DEV performance at epoch 57 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.394391.
+
+2024/01/12 06:47:33 - INFO : Epoch 57 Time Cost 3.46999454498291 secs.
+2024/01/12 06:47:35 - INFO : TRAIN performance at epoch 58 --- Precision: 1.000000, Recall: 0.102564, Micro-F1: 0.186047, Macro-F1: 0.022222, Loss: 0.353228.
+
+2024/01/12 06:47:36 - INFO : DEV performance at epoch 58 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.396015.
+
+2024/01/12 06:47:36 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:47:36 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:47:36 - INFO : Epoch 58 Time Cost 3.355499505996704 secs.
+2024/01/12 06:47:38 - INFO : TRAIN performance at epoch 59 --- Precision: 1.000000, Recall: 0.102564, Micro-F1: 0.186047, Macro-F1: 0.022222, Loss: 0.354785.
+
+2024/01/12 06:47:39 - INFO : DEV performance at epoch 59 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.398009.
+
+2024/01/12 06:47:39 - INFO : Epoch 59 Time Cost 3.271585702896118 secs.
+2024/01/12 06:47:42 - INFO : TRAIN performance at epoch 60 --- Precision: 1.000000, Recall: 0.102564, Micro-F1: 0.186047, Macro-F1: 0.022222, Loss: 0.356207.
+
+2024/01/12 06:47:43 - INFO : DEV performance at epoch 60 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.400003.
+
+2024/01/12 06:47:43 - INFO : Epoch 60 Time Cost 3.280153274536133 secs.
+2024/01/12 06:47:45 - INFO : TRAIN performance at epoch 61 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.357696.
+
+2024/01/12 06:47:46 - INFO : DEV performance at epoch 61 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.402042.
+
+2024/01/12 06:47:47 - INFO : Epoch 61 Time Cost 4.420454502105713 secs.
+2024/01/12 06:47:49 - INFO : TRAIN performance at epoch 62 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.358775.
+
+2024/01/12 06:47:50 - INFO : DEV performance at epoch 62 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.403824.
+
+2024/01/12 06:47:50 - INFO : Epoch 62 Time Cost 3.1332290172576904 secs.
+2024/01/12 06:47:53 - INFO : TRAIN performance at epoch 63 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.359353.
+
+2024/01/12 06:47:54 - INFO : DEV performance at epoch 63 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.405017.
+
+2024/01/12 06:47:54 - INFO : Epoch 63 Time Cost 3.562241315841675 secs.
+2024/01/12 06:47:56 - INFO : TRAIN performance at epoch 64 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.359880.
+
+2024/01/12 06:47:57 - INFO : DEV performance at epoch 64 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.406044.
+
+2024/01/12 06:47:57 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:47:57 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:47:57 - INFO : Epoch 64 Time Cost 3.246722459793091 secs.
+2024/01/12 06:47:59 - INFO : TRAIN performance at epoch 65 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.359604.
+
+2024/01/12 06:48:00 - INFO : DEV performance at epoch 65 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.406158.
+
+2024/01/12 06:48:00 - INFO : Epoch 65 Time Cost 3.2996652126312256 secs.
+2024/01/12 06:48:03 - INFO : TRAIN performance at epoch 66 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.359464.
+
+2024/01/12 06:48:04 - INFO : DEV performance at epoch 66 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.406462.
+
+2024/01/12 06:48:04 - INFO : Epoch 66 Time Cost 3.5696280002593994 secs.
+2024/01/12 06:48:06 - INFO : TRAIN performance at epoch 67 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.359522.
+
+2024/01/12 06:48:07 - INFO : DEV performance at epoch 67 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.406821.
+
+2024/01/12 06:48:07 - INFO : Epoch 67 Time Cost 3.325911283493042 secs.
+2024/01/12 06:48:10 - INFO : TRAIN performance at epoch 68 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.359443.
+
+2024/01/12 06:48:11 - INFO : DEV performance at epoch 68 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.407013.
+
+2024/01/12 06:48:11 - INFO : Epoch 68 Time Cost 3.41703724861145 secs.
+2024/01/12 06:48:13 - INFO : TRAIN performance at epoch 69 --- Precision: 1.000000, Recall: 0.128205, Micro-F1: 0.227273, Macro-F1: 0.025000, Loss: 0.359220.
+
+2024/01/12 06:48:14 - INFO : DEV performance at epoch 69 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.407125.
+
+2024/01/12 06:48:14 - INFO : Epoch 69 Time Cost 3.358445405960083 secs.
+2024/01/12 06:48:16 - INFO : TRAIN performance at epoch 70 --- Precision: 1.000000, Recall: 0.153846, Micro-F1: 0.266667, Macro-F1: 0.035000, Loss: 0.358969.
+
+2024/01/12 06:48:17 - INFO : DEV performance at epoch 70 --- Precision: 0.666667, Recall: 0.074074, Micro-F1: 0.133333, Macro-F1: 0.020000, Loss: 0.407115.
+
+2024/01/12 06:48:17 - INFO : Epoch 70 Time Cost 3.338188886642456 secs.
+2024/01/12 06:48:19 - INFO : TRAIN performance at epoch 71 --- Precision: 1.000000, Recall: 0.153846, Micro-F1: 0.266667, Macro-F1: 0.035000, Loss: 0.358421.
+
+2024/01/12 06:48:21 - INFO : DEV performance at epoch 71 --- Precision: 0.750000, Recall: 0.111111, Micro-F1: 0.193548, Macro-F1: 0.028333, Loss: 0.406988.
+
+2024/01/12 06:48:21 - INFO : Improve Macro-F1 0.025% --> 0.028333333333333332%
+2024/01/12 06:48:25 - INFO : Epoch 71 Time Cost 7.222503185272217 secs.
+2024/01/12 06:48:27 - INFO : TRAIN performance at epoch 72 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.058929, Loss: 0.357900.
+
+2024/01/12 06:48:28 - INFO : DEV performance at epoch 72 --- Precision: 0.750000, Recall: 0.111111, Micro-F1: 0.193548, Macro-F1: 0.028333, Loss: 0.406843.
+
+2024/01/12 06:48:28 - INFO : Epoch 72 Time Cost 3.324258327484131 secs.
+2024/01/12 06:48:30 - INFO : TRAIN performance at epoch 73 --- Precision: 1.000000, Recall: 0.205128, Micro-F1: 0.340426, Macro-F1: 0.054167, Loss: 0.357080.
+
+2024/01/12 06:48:31 - INFO : DEV performance at epoch 73 --- Precision: 0.750000, Recall: 0.111111, Micro-F1: 0.193548, Macro-F1: 0.028333, Loss: 0.406690.
+
+2024/01/12 06:48:31 - INFO : Epoch 73 Time Cost 3.2005980014801025 secs.
+2024/01/12 06:48:33 - INFO : TRAIN performance at epoch 74 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.058929, Loss: 0.356285.
+
+2024/01/12 06:48:34 - INFO : DEV performance at epoch 74 --- Precision: 0.750000, Recall: 0.111111, Micro-F1: 0.193548, Macro-F1: 0.028333, Loss: 0.406672.
+
+2024/01/12 06:48:34 - INFO : Epoch 74 Time Cost 3.1942434310913086 secs.
+2024/01/12 06:48:37 - INFO : TRAIN performance at epoch 75 --- Precision: 1.000000, Recall: 0.256410, Micro-F1: 0.408163, Macro-F1: 0.066429, Loss: 0.355443.
+
+2024/01/12 06:48:38 - INFO : DEV performance at epoch 75 --- Precision: 0.750000, Recall: 0.111111, Micro-F1: 0.193548, Macro-F1: 0.028333, Loss: 0.406792.
+
+2024/01/12 06:48:38 - INFO : Epoch 75 Time Cost 3.2898919582366943 secs.
+2024/01/12 06:48:40 - INFO : TRAIN performance at epoch 76 --- Precision: 1.000000, Recall: 0.256410, Micro-F1: 0.408163, Macro-F1: 0.066429, Loss: 0.355272.
+
+2024/01/12 06:48:41 - INFO : DEV performance at epoch 76 --- Precision: 0.750000, Recall: 0.111111, Micro-F1: 0.193548, Macro-F1: 0.028333, Loss: 0.407590.
+
+2024/01/12 06:48:41 - INFO : Epoch 76 Time Cost 3.259427547454834 secs.
+2024/01/12 06:48:43 - INFO : TRAIN performance at epoch 77 --- Precision: 0.909091, Recall: 0.256410, Micro-F1: 0.400000, Macro-F1: 0.063095, Loss: 0.354813.
+
+2024/01/12 06:48:44 - INFO : DEV performance at epoch 77 --- Precision: 0.750000, Recall: 0.111111, Micro-F1: 0.193548, Macro-F1: 0.028333, Loss: 0.407976.
+
+2024/01/12 06:48:44 - INFO : Epoch 77 Time Cost 3.1470186710357666 secs.
+2024/01/12 06:48:46 - INFO : TRAIN performance at epoch 78 --- Precision: 0.909091, Recall: 0.256410, Micro-F1: 0.400000, Macro-F1: 0.063095, Loss: 0.354037.
+
+2024/01/12 06:48:47 - INFO : DEV performance at epoch 78 --- Precision: 1.000000, Recall: 0.111111, Micro-F1: 0.200000, Macro-F1: 0.033333, Loss: 0.407809.
+
+2024/01/12 06:48:47 - INFO : Improve Macro-F1 0.028333333333333332% --> 0.03333333333333334%
+2024/01/12 06:48:50 - INFO : Epoch 78 Time Cost 5.550122261047363 secs.
+2024/01/12 06:48:52 - INFO : TRAIN performance at epoch 79 --- Precision: 0.909091, Recall: 0.256410, Micro-F1: 0.400000, Macro-F1: 0.063095, Loss: 0.353094.
+
+2024/01/12 06:48:53 - INFO : DEV performance at epoch 79 --- Precision: 1.000000, Recall: 0.111111, Micro-F1: 0.200000, Macro-F1: 0.033333, Loss: 0.407296.
+
+2024/01/12 06:48:53 - INFO : Epoch 79 Time Cost 3.2711853981018066 secs.
+2024/01/12 06:48:55 - INFO : TRAIN performance at epoch 80 --- Precision: 0.900000, Recall: 0.230769, Micro-F1: 0.367347, Macro-F1: 0.060317, Loss: 0.352141.
+
+2024/01/12 06:48:56 - INFO : DEV performance at epoch 80 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.407007.
+
+2024/01/12 06:48:56 - INFO : Epoch 80 Time Cost 3.26840877532959 secs.
+2024/01/12 06:48:58 - INFO : TRAIN performance at epoch 81 --- Precision: 0.900000, Recall: 0.230769, Micro-F1: 0.367347, Macro-F1: 0.060317, Loss: 0.350872.
+
+2024/01/12 06:49:00 - INFO : DEV performance at epoch 81 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.406579.
+
+2024/01/12 06:49:01 - INFO : Epoch 81 Time Cost 4.56963324546814 secs.
+2024/01/12 06:49:03 - INFO : TRAIN performance at epoch 82 --- Precision: 0.909091, Recall: 0.256410, Micro-F1: 0.400000, Macro-F1: 0.076984, Loss: 0.349849.
+
+2024/01/12 06:49:04 - INFO : DEV performance at epoch 82 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.406435.
+
+2024/01/12 06:49:04 - INFO : Epoch 82 Time Cost 3.679476022720337 secs.
+2024/01/12 06:49:07 - INFO : TRAIN performance at epoch 83 --- Precision: 0.909091, Recall: 0.256410, Micro-F1: 0.400000, Macro-F1: 0.076984, Loss: 0.348596.
+
+2024/01/12 06:49:08 - INFO : DEV performance at epoch 83 --- Precision: 1.000000, Recall: 0.111111, Micro-F1: 0.200000, Macro-F1: 0.030952, Loss: 0.406027.
+
+2024/01/12 06:49:08 - INFO : Epoch 83 Time Cost 3.6253750324249268 secs.
+2024/01/12 06:49:10 - INFO : TRAIN performance at epoch 84 --- Precision: 0.916667, Recall: 0.282051, Micro-F1: 0.431373, Macro-F1: 0.085317, Loss: 0.346707.
+
+2024/01/12 06:49:11 - INFO : DEV performance at epoch 84 --- Precision: 0.800000, Recall: 0.148148, Micro-F1: 0.250000, Macro-F1: 0.033333, Loss: 0.404932.
+
+2024/01/12 06:49:11 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:49:11 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:49:11 - INFO : Epoch 84 Time Cost 3.272639513015747 secs.
+2024/01/12 06:49:14 - INFO : TRAIN performance at epoch 85 --- Precision: 0.857143, Recall: 0.307692, Micro-F1: 0.452830, Macro-F1: 0.086111, Loss: 0.345049.
+
+2024/01/12 06:49:15 - INFO : DEV performance at epoch 85 --- Precision: 0.625000, Recall: 0.185185, Micro-F1: 0.285714, Macro-F1: 0.033333, Loss: 0.404101.
+
+2024/01/12 06:49:15 - INFO : Improve Micro-F1 0.2702702702702703% --> 0.2857142857142857%
+2024/01/12 06:49:17 - INFO : Epoch 85 Time Cost 5.516101837158203 secs.
+2024/01/12 06:49:19 - INFO : TRAIN performance at epoch 86 --- Precision: 0.800000, Recall: 0.307692, Micro-F1: 0.444444, Macro-F1: 0.083889, Loss: 0.343059.
+
+2024/01/12 06:49:20 - INFO : DEV performance at epoch 86 --- Precision: 0.600000, Recall: 0.222222, Micro-F1: 0.324324, Macro-F1: 0.034524, Loss: 0.402857.
+
+2024/01/12 06:49:20 - INFO : Improve Micro-F1 0.2857142857142857% --> 0.32432432432432434%
+2024/01/12 06:49:22 - INFO : Improve Macro-F1 0.03333333333333334% --> 0.034523809523809526%
+2024/01/12 06:49:25 - INFO : Epoch 86 Time Cost 8.078174114227295 secs.
+2024/01/12 06:49:27 - INFO : TRAIN performance at epoch 87 --- Precision: 0.800000, Recall: 0.307692, Micro-F1: 0.444444, Macro-F1: 0.083889, Loss: 0.340754.
+
+2024/01/12 06:49:28 - INFO : DEV performance at epoch 87 --- Precision: 0.666667, Recall: 0.222222, Micro-F1: 0.333333, Macro-F1: 0.035897, Loss: 0.401364.
+
+2024/01/12 06:49:28 - INFO : Improve Micro-F1 0.32432432432432434% --> 0.3333333333333333%
+2024/01/12 06:49:30 - INFO : Improve Macro-F1 0.034523809523809526% --> 0.035897435897435895%
+2024/01/12 06:49:32 - INFO : Epoch 87 Time Cost 7.4756553173065186 secs.
+2024/01/12 06:49:34 - INFO : TRAIN performance at epoch 88 --- Precision: 0.857143, Recall: 0.307692, Micro-F1: 0.452830, Macro-F1: 0.087222, Loss: 0.338176.
+
+2024/01/12 06:49:35 - INFO : DEV performance at epoch 88 --- Precision: 0.600000, Recall: 0.222222, Micro-F1: 0.324324, Macro-F1: 0.034524, Loss: 0.399445.
+
+2024/01/12 06:49:35 - INFO : Epoch 88 Time Cost 2.998684883117676 secs.
+2024/01/12 06:49:37 - INFO : TRAIN performance at epoch 89 --- Precision: 0.846154, Recall: 0.282051, Micro-F1: 0.423077, Macro-F1: 0.079722, Loss: 0.335704.
+
+2024/01/12 06:49:38 - INFO : DEV performance at epoch 89 --- Precision: 0.600000, Recall: 0.222222, Micro-F1: 0.324324, Macro-F1: 0.034524, Loss: 0.397609.
+
+2024/01/12 06:49:38 - INFO : Epoch 89 Time Cost 3.0123555660247803 secs.
+2024/01/12 06:49:40 - INFO : TRAIN performance at epoch 90 --- Precision: 0.846154, Recall: 0.282051, Micro-F1: 0.423077, Macro-F1: 0.079722, Loss: 0.333598.
+
+2024/01/12 06:49:41 - INFO : DEV performance at epoch 90 --- Precision: 0.600000, Recall: 0.222222, Micro-F1: 0.324324, Macro-F1: 0.034524, Loss: 0.396136.
+
+2024/01/12 06:49:41 - INFO : Epoch 90 Time Cost 3.0555715560913086 secs.
+2024/01/12 06:49:44 - INFO : TRAIN performance at epoch 91 --- Precision: 0.909091, Recall: 0.256410, Micro-F1: 0.400000, Macro-F1: 0.069444, Loss: 0.331083.
+
+2024/01/12 06:49:45 - INFO : DEV performance at epoch 91 --- Precision: 0.666667, Recall: 0.222222, Micro-F1: 0.333333, Macro-F1: 0.035897, Loss: 0.394410.
+
+2024/01/12 06:49:46 - INFO : Epoch 91 Time Cost 4.949146032333374 secs.
+2024/01/12 06:49:48 - INFO : TRAIN performance at epoch 92 --- Precision: 0.909091, Recall: 0.256410, Micro-F1: 0.400000, Macro-F1: 0.069444, Loss: 0.329200.
+
+2024/01/12 06:49:49 - INFO : DEV performance at epoch 92 --- Precision: 0.666667, Recall: 0.222222, Micro-F1: 0.333333, Macro-F1: 0.035897, Loss: 0.393171.
+
+2024/01/12 06:49:49 - INFO : Epoch 92 Time Cost 3.0229289531707764 secs.
+2024/01/12 06:49:51 - INFO : TRAIN performance at epoch 93 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.068651, Loss: 0.327790.
+
+2024/01/12 06:49:53 - INFO : DEV performance at epoch 93 --- Precision: 0.833333, Recall: 0.185185, Micro-F1: 0.303030, Macro-F1: 0.036667, Loss: 0.392602.
+
+2024/01/12 06:49:53 - INFO : Improve Macro-F1 0.035897435897435895% --> 0.03666666666666667%
+2024/01/12 06:49:55 - INFO : Epoch 93 Time Cost 5.612750291824341 secs.
+2024/01/12 06:49:57 - INFO : TRAIN performance at epoch 94 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.068651, Loss: 0.326984.
+
+2024/01/12 06:49:58 - INFO : DEV performance at epoch 94 --- Precision: 1.000000, Recall: 0.148148, Micro-F1: 0.258065, Macro-F1: 0.035417, Loss: 0.392567.
+
+2024/01/12 06:49:58 - INFO : Epoch 94 Time Cost 3.0972487926483154 secs.
+2024/01/12 06:50:00 - INFO : TRAIN performance at epoch 95 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.068651, Loss: 0.326816.
+
+2024/01/12 06:50:01 - INFO : DEV performance at epoch 95 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.393265.
+
+2024/01/12 06:50:01 - INFO : Epoch 95 Time Cost 3.430417060852051 secs.
+2024/01/12 06:50:04 - INFO : TRAIN performance at epoch 96 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.068651, Loss: 0.326268.
+
+2024/01/12 06:50:05 - INFO : DEV performance at epoch 96 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.393631.
+
+2024/01/12 06:50:05 - INFO : Epoch 96 Time Cost 3.3691623210906982 secs.
+2024/01/12 06:50:07 - INFO : TRAIN performance at epoch 97 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.068651, Loss: 0.325483.
+
+2024/01/12 06:50:08 - INFO : DEV performance at epoch 97 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.393690.
+
+2024/01/12 06:50:08 - INFO : Epoch 97 Time Cost 3.0041708946228027 secs.
+2024/01/12 06:50:10 - INFO : TRAIN performance at epoch 98 --- Precision: 1.000000, Recall: 0.179487, Micro-F1: 0.304348, Macro-F1: 0.055556, Loss: 0.325159.
+
+2024/01/12 06:50:11 - INFO : DEV performance at epoch 98 --- Precision: 1.000000, Recall: 0.074074, Micro-F1: 0.137931, Macro-F1: 0.025000, Loss: 0.394476.
+
+2024/01/12 06:50:11 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:50:11 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:50:11 - INFO : Epoch 98 Time Cost 3.146904945373535 secs.
+2024/01/12 06:50:13 - INFO : TRAIN performance at epoch 99 --- Precision: 1.000000, Recall: 0.179487, Micro-F1: 0.304348, Macro-F1: 0.055556, Loss: 0.325199.
+
+2024/01/12 06:50:14 - INFO : DEV performance at epoch 99 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.395553.
+
+2024/01/12 06:50:14 - INFO : Epoch 99 Time Cost 2.9779794216156006 secs.
+2024/01/12 06:50:16 - INFO : TRAIN performance at epoch 100 --- Precision: 1.000000, Recall: 0.179487, Micro-F1: 0.304348, Macro-F1: 0.055556, Loss: 0.325795.
+
+2024/01/12 06:50:17 - INFO : DEV performance at epoch 100 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.397410.
+
+2024/01/12 06:50:17 - INFO : Epoch 100 Time Cost 3.0770342350006104 secs.
+2024/01/12 06:50:19 - INFO : TRAIN performance at epoch 101 --- Precision: 1.000000, Recall: 0.205128, Micro-F1: 0.340426, Macro-F1: 0.068056, Loss: 0.325994.
+
+2024/01/12 06:50:20 - INFO : DEV performance at epoch 101 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.398959.
+
+2024/01/12 06:50:21 - INFO : Epoch 101 Time Cost 4.171319484710693 secs.
+2024/01/12 06:50:23 - INFO : TRAIN performance at epoch 102 --- Precision: 1.000000, Recall: 0.230769, Micro-F1: 0.375000, Macro-F1: 0.103056, Loss: 0.325964.
+
+2024/01/12 06:50:24 - INFO : DEV performance at epoch 102 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.400397.
+
+2024/01/12 06:50:24 - INFO : Epoch 102 Time Cost 3.002918243408203 secs.
+2024/01/12 06:50:26 - INFO : TRAIN performance at epoch 103 --- Precision: 1.000000, Recall: 0.333333, Micro-F1: 0.500000, Macro-F1: 0.147222, Loss: 0.325455.
+
+2024/01/12 06:50:27 - INFO : DEV performance at epoch 103 --- Precision: 1.000000, Recall: 0.037037, Micro-F1: 0.071429, Macro-F1: 0.016667, Loss: 0.401538.
+
+2024/01/12 06:50:27 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:50:27 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:50:27 - INFO : Epoch 103 Time Cost 3.015324354171753 secs.
+2024/01/12 06:50:29 - INFO : TRAIN performance at epoch 104 --- Precision: 0.933333, Recall: 0.358974, Micro-F1: 0.518519, Macro-F1: 0.152222, Loss: 0.325348.
+
+2024/01/12 06:50:30 - INFO : DEV performance at epoch 104 --- Precision: 0.500000, Recall: 0.037037, Micro-F1: 0.068966, Macro-F1: 0.016667, Loss: 0.403044.
+
+2024/01/12 06:50:30 - INFO : Epoch 104 Time Cost 2.9896960258483887 secs.
+2024/01/12 06:50:33 - INFO : TRAIN performance at epoch 105 --- Precision: 0.933333, Recall: 0.358974, Micro-F1: 0.518519, Macro-F1: 0.152222, Loss: 0.325250.
+
+2024/01/12 06:50:34 - INFO : DEV performance at epoch 105 --- Precision: 0.500000, Recall: 0.037037, Micro-F1: 0.068966, Macro-F1: 0.016667, Loss: 0.404460.
+
+2024/01/12 06:50:34 - INFO : Epoch 105 Time Cost 3.716146469116211 secs.
+2024/01/12 06:50:36 - INFO : TRAIN performance at epoch 106 --- Precision: 0.875000, Recall: 0.358974, Micro-F1: 0.509091, Macro-F1: 0.149841, Loss: 0.324642.
+
+2024/01/12 06:50:37 - INFO : DEV performance at epoch 106 --- Precision: 0.500000, Recall: 0.037037, Micro-F1: 0.068966, Macro-F1: 0.016667, Loss: 0.405342.
+
+2024/01/12 06:50:37 - INFO : Epoch 106 Time Cost 3.050776481628418 secs.
+2024/01/12 06:50:39 - INFO : TRAIN performance at epoch 107 --- Precision: 0.888889, Recall: 0.410256, Micro-F1: 0.561404, Macro-F1: 0.181508, Loss: 0.323637.
+
+2024/01/12 06:50:40 - INFO : DEV performance at epoch 107 --- Precision: 0.250000, Recall: 0.037037, Micro-F1: 0.064516, Macro-F1: 0.016667, Loss: 0.405602.
+
+2024/01/12 06:50:40 - INFO : Epoch 107 Time Cost 3.0182945728302 secs.
+2024/01/12 06:50:42 - INFO : TRAIN performance at epoch 108 --- Precision: 0.894737, Recall: 0.435897, Micro-F1: 0.586207, Macro-F1: 0.186270, Loss: 0.322525.
+
+2024/01/12 06:50:43 - INFO : DEV performance at epoch 108 --- Precision: 0.400000, Recall: 0.074074, Micro-F1: 0.125000, Macro-F1: 0.025000, Loss: 0.405877.
+
+2024/01/12 06:50:43 - WARNING : Performance has not been improved for 15 epochs, updating learning rate
+2024/01/12 06:50:43 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:50:43 - INFO : Epoch 108 Time Cost 3.0724027156829834 secs.
+2024/01/12 06:50:45 - INFO : TRAIN performance at epoch 109 --- Precision: 0.900000, Recall: 0.461538, Micro-F1: 0.610169, Macro-F1: 0.194603, Loss: 0.320848.
+
+2024/01/12 06:50:46 - INFO : DEV performance at epoch 109 --- Precision: 0.400000, Recall: 0.074074, Micro-F1: 0.125000, Macro-F1: 0.025000, Loss: 0.405353.
+
+2024/01/12 06:50:46 - INFO : Epoch 109 Time Cost 3.0388801097869873 secs.
+2024/01/12 06:50:48 - INFO : TRAIN performance at epoch 110 --- Precision: 0.904762, Recall: 0.487179, Micro-F1: 0.633333, Macro-F1: 0.219603, Loss: 0.319663.
+
+2024/01/12 06:50:49 - INFO : DEV performance at epoch 110 --- Precision: 0.333333, Recall: 0.074074, Micro-F1: 0.121212, Macro-F1: 0.025000, Loss: 0.405142.
+
+2024/01/12 06:50:49 - INFO : Epoch 110 Time Cost 3.2350738048553467 secs.
+2024/01/12 06:50:52 - INFO : TRAIN performance at epoch 111 --- Precision: 0.900000, Recall: 0.461538, Micro-F1: 0.610169, Macro-F1: 0.194603, Loss: 0.317812.
+
+2024/01/12 06:50:53 - INFO : DEV performance at epoch 111 --- Precision: 0.428571, Recall: 0.111111, Micro-F1: 0.176471, Macro-F1: 0.030952, Loss: 0.404469.
+
+2024/01/12 06:50:54 - INFO : Epoch 111 Time Cost 4.345085859298706 secs.
+2024/01/12 06:50:56 - INFO : TRAIN performance at epoch 112 --- Precision: 0.900000, Recall: 0.461538, Micro-F1: 0.610169, Macro-F1: 0.194603, Loss: 0.315679.
+
+2024/01/12 06:50:57 - INFO : DEV performance at epoch 112 --- Precision: 0.571429, Recall: 0.148148, Micro-F1: 0.235294, Macro-F1: 0.035417, Loss: 0.403517.
+
+2024/01/12 06:50:57 - INFO : Epoch 112 Time Cost 2.998708724975586 secs.
+2024/01/12 06:50:59 - INFO : TRAIN performance at epoch 113 --- Precision: 0.900000, Recall: 0.461538, Micro-F1: 0.610169, Macro-F1: 0.194603, Loss: 0.312493.
+
+2024/01/12 06:51:00 - INFO : DEV performance at epoch 113 --- Precision: 0.500000, Recall: 0.148148, Micro-F1: 0.228571, Macro-F1: 0.035417, Loss: 0.401628.
+
+2024/01/12 06:51:00 - WARNING : Performance has not been improved for 20 epochs, updating learning rate
+2024/01/12 06:51:00 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:51:00 - INFO : Epoch 113 Time Cost 3.311147451400757 secs.
+2024/01/12 06:51:02 - INFO : TRAIN performance at epoch 114 --- Precision: 0.863636, Recall: 0.487179, Micro-F1: 0.622951, Macro-F1: 0.214603, Loss: 0.309426.
+
+2024/01/12 06:51:03 - INFO : DEV performance at epoch 114 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.033333, Loss: 0.399909.
+
+2024/01/12 06:51:03 - INFO : Epoch 114 Time Cost 3.1785500049591064 secs.
+2024/01/12 06:51:06 - INFO : TRAIN performance at epoch 115 --- Precision: 0.863636, Recall: 0.487179, Micro-F1: 0.622951, Macro-F1: 0.214603, Loss: 0.305838.
+
+2024/01/12 06:51:07 - INFO : DEV performance at epoch 115 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.033333, Loss: 0.397692.
+
+2024/01/12 06:51:07 - INFO : Epoch 115 Time Cost 3.3752434253692627 secs.
+2024/01/12 06:51:09 - INFO : TRAIN performance at epoch 116 --- Precision: 0.875000, Recall: 0.538462, Micro-F1: 0.666667, Macro-F1: 0.227937, Loss: 0.301739.
+
+2024/01/12 06:51:10 - INFO : DEV performance at epoch 116 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.035417, Loss: 0.394910.
+
+2024/01/12 06:51:10 - INFO : Epoch 116 Time Cost 3.0378758907318115 secs.
+2024/01/12 06:51:12 - INFO : TRAIN performance at epoch 117 --- Precision: 0.909091, Recall: 0.512821, Micro-F1: 0.655738, Macro-F1: 0.207937, Loss: 0.297237.
+
+2024/01/12 06:51:13 - INFO : DEV performance at epoch 117 --- Precision: 0.600000, Recall: 0.222222, Micro-F1: 0.324324, Macro-F1: 0.049702, Loss: 0.391429.
+
+2024/01/12 06:51:13 - INFO : Improve Macro-F1 0.03666666666666667% --> 0.049702380952380956%
+2024/01/12 06:51:15 - INFO : Epoch 117 Time Cost 5.326162099838257 secs.
+2024/01/12 06:51:17 - INFO : TRAIN performance at epoch 118 --- Precision: 0.869565, Recall: 0.512821, Micro-F1: 0.645161, Macro-F1: 0.202937, Loss: 0.293199.
+
+2024/01/12 06:51:18 - INFO : DEV performance at epoch 118 --- Precision: 0.500000, Recall: 0.185185, Micro-F1: 0.270270, Macro-F1: 0.043452, Loss: 0.388505.
+
+2024/01/12 06:51:18 - INFO : Epoch 118 Time Cost 3.10298752784729 secs.
+2024/01/12 06:51:20 - INFO : TRAIN performance at epoch 119 --- Precision: 0.875000, Recall: 0.538462, Micro-F1: 0.666667, Macro-F1: 0.227937, Loss: 0.289404.
+
+2024/01/12 06:51:21 - INFO : DEV performance at epoch 119 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.385939.
+
+2024/01/12 06:51:21 - INFO : Epoch 119 Time Cost 3.0707502365112305 secs.
+2024/01/12 06:51:23 - INFO : TRAIN performance at epoch 120 --- Precision: 0.875000, Recall: 0.538462, Micro-F1: 0.666667, Macro-F1: 0.227937, Loss: 0.285129.
+
+2024/01/12 06:51:24 - INFO : DEV performance at epoch 120 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.382880.
+
+2024/01/12 06:51:24 - INFO : Epoch 120 Time Cost 3.0767312049865723 secs.
+2024/01/12 06:51:26 - INFO : TRAIN performance at epoch 121 --- Precision: 0.916667, Recall: 0.564103, Micro-F1: 0.698413, Macro-F1: 0.255317, Loss: 0.281009.
+
+2024/01/12 06:51:27 - INFO : DEV performance at epoch 121 --- Precision: 0.400000, Recall: 0.148148, Micro-F1: 0.216216, Macro-F1: 0.037500, Loss: 0.379999.
+
+2024/01/12 06:51:29 - INFO : Epoch 121 Time Cost 4.307093143463135 secs.
+2024/01/12 06:51:31 - INFO : TRAIN performance at epoch 122 --- Precision: 0.916667, Recall: 0.564103, Micro-F1: 0.698413, Macro-F1: 0.255317, Loss: 0.276897.
+
+2024/01/12 06:51:32 - INFO : DEV performance at epoch 122 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.377328.
+
+2024/01/12 06:51:32 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:51:32 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:51:32 - INFO : Epoch 122 Time Cost 3.011232376098633 secs.
+2024/01/12 06:51:34 - INFO : TRAIN performance at epoch 123 --- Precision: 0.920000, Recall: 0.589744, Micro-F1: 0.718750, Macro-F1: 0.280317, Loss: 0.273496.
+
+2024/01/12 06:51:35 - INFO : DEV performance at epoch 123 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.375381.
+
+2024/01/12 06:51:35 - INFO : Epoch 123 Time Cost 3.19704532623291 secs.
+2024/01/12 06:51:37 - INFO : TRAIN performance at epoch 124 --- Precision: 0.913043, Recall: 0.538462, Micro-F1: 0.677419, Macro-F1: 0.250317, Loss: 0.270256.
+
+2024/01/12 06:51:38 - INFO : DEV performance at epoch 124 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.373366.
+
+2024/01/12 06:51:38 - INFO : Epoch 124 Time Cost 3.5440638065338135 secs.
+2024/01/12 06:51:40 - INFO : TRAIN performance at epoch 125 --- Precision: 0.913043, Recall: 0.538462, Micro-F1: 0.677419, Macro-F1: 0.250317, Loss: 0.268042.
+
+2024/01/12 06:51:41 - INFO : DEV performance at epoch 125 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.372479.
+
+2024/01/12 06:51:41 - INFO : Epoch 125 Time Cost 3.088291883468628 secs.
+2024/01/12 06:51:43 - INFO : TRAIN performance at epoch 126 --- Precision: 0.913043, Recall: 0.538462, Micro-F1: 0.677419, Macro-F1: 0.250317, Loss: 0.266192.
+
+2024/01/12 06:51:45 - INFO : DEV performance at epoch 126 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.371774.
+
+2024/01/12 06:51:45 - INFO : Epoch 126 Time Cost 3.1819934844970703 secs.
+2024/01/12 06:51:47 - INFO : TRAIN performance at epoch 127 --- Precision: 0.913043, Recall: 0.538462, Micro-F1: 0.677419, Macro-F1: 0.250317, Loss: 0.265926.
+
+2024/01/12 06:51:48 - INFO : DEV performance at epoch 127 --- Precision: 0.444444, Recall: 0.148148, Micro-F1: 0.222222, Macro-F1: 0.037500, Loss: 0.372762.
+
+2024/01/12 06:51:48 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:51:48 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:51:48 - INFO : Epoch 127 Time Cost 3.7414634227752686 secs.
+2024/01/12 06:51:50 - INFO : TRAIN performance at epoch 128 --- Precision: 0.923077, Recall: 0.615385, Micro-F1: 0.738462, Macro-F1: 0.325317, Loss: 0.266606.
+
+2024/01/12 06:51:51 - INFO : DEV performance at epoch 128 --- Precision: 0.500000, Recall: 0.185185, Micro-F1: 0.270270, Macro-F1: 0.043452, Loss: 0.375231.
+
+2024/01/12 06:51:51 - INFO : Epoch 128 Time Cost 3.1632800102233887 secs.
+2024/01/12 06:51:54 - INFO : TRAIN performance at epoch 129 --- Precision: 0.925926, Recall: 0.641026, Micro-F1: 0.757576, Macro-F1: 0.350317, Loss: 0.266793.
+
+2024/01/12 06:51:55 - INFO : DEV performance at epoch 129 --- Precision: 0.454545, Recall: 0.185185, Micro-F1: 0.263158, Macro-F1: 0.043452, Loss: 0.377230.
+
+2024/01/12 06:51:55 - INFO : Epoch 129 Time Cost 3.116403102874756 secs.
+2024/01/12 06:51:57 - INFO : TRAIN performance at epoch 130 --- Precision: 0.931034, Recall: 0.692308, Micro-F1: 0.794118, Macro-F1: 0.400317, Loss: 0.267364.
+
+2024/01/12 06:51:58 - INFO : DEV performance at epoch 130 --- Precision: 0.428571, Recall: 0.222222, Micro-F1: 0.292683, Macro-F1: 0.045833, Loss: 0.379508.
+
+2024/01/12 06:51:58 - INFO : Epoch 130 Time Cost 3.091545581817627 secs.
+2024/01/12 06:52:00 - INFO : TRAIN performance at epoch 131 --- Precision: 0.933333, Recall: 0.717949, Micro-F1: 0.811594, Macro-F1: 0.425317, Loss: 0.267808.
+
+2024/01/12 06:52:01 - INFO : DEV performance at epoch 131 --- Precision: 0.428571, Recall: 0.222222, Micro-F1: 0.292683, Macro-F1: 0.045833, Loss: 0.381873.
+
+2024/01/12 06:52:02 - INFO : Epoch 131 Time Cost 4.27627968788147 secs.
+2024/01/12 06:52:04 - INFO : TRAIN performance at epoch 132 --- Precision: 0.933333, Recall: 0.717949, Micro-F1: 0.811594, Macro-F1: 0.425317, Loss: 0.268125.
+
+2024/01/12 06:52:05 - INFO : DEV performance at epoch 132 --- Precision: 0.466667, Recall: 0.259259, Micro-F1: 0.333333, Macro-F1: 0.049167, Loss: 0.383884.
+
+2024/01/12 06:52:05 - INFO : Improve Micro-F1 0.3333333333333333% --> 0.33333333333333337%
+2024/01/12 06:52:07 - INFO : Epoch 132 Time Cost 5.132166862487793 secs.
+2024/01/12 06:52:09 - INFO : TRAIN performance at epoch 133 --- Precision: 0.903226, Recall: 0.717949, Micro-F1: 0.800000, Macro-F1: 0.422639, Loss: 0.267419.
+
+2024/01/12 06:52:10 - INFO : DEV performance at epoch 133 --- Precision: 0.388889, Recall: 0.259259, Micro-F1: 0.311111, Macro-F1: 0.045833, Loss: 0.384924.
+
+2024/01/12 06:52:10 - INFO : Epoch 133 Time Cost 3.08729887008667 secs.
+2024/01/12 06:52:12 - INFO : TRAIN performance at epoch 134 --- Precision: 0.906250, Recall: 0.743590, Micro-F1: 0.816901, Macro-F1: 0.447639, Loss: 0.265889.
+
+2024/01/12 06:52:13 - INFO : DEV performance at epoch 134 --- Precision: 0.400000, Recall: 0.296296, Micro-F1: 0.340426, Macro-F1: 0.048397, Loss: 0.384872.
+
+2024/01/12 06:52:13 - INFO : Improve Micro-F1 0.33333333333333337% --> 0.3404255319148936%
+2024/01/12 06:52:15 - INFO : Epoch 134 Time Cost 5.274818181991577 secs.
+2024/01/12 06:52:18 - INFO : TRAIN performance at epoch 135 --- Precision: 0.941176, Recall: 0.820513, Micro-F1: 0.876712, Macro-F1: 0.503750, Loss: 0.263665.
+
+2024/01/12 06:52:19 - INFO : DEV performance at epoch 135 --- Precision: 0.400000, Recall: 0.296296, Micro-F1: 0.340426, Macro-F1: 0.048397, Loss: 0.384254.
+
+2024/01/12 06:52:19 - INFO : Epoch 135 Time Cost 3.100529909133911 secs.
+2024/01/12 06:52:21 - INFO : TRAIN performance at epoch 136 --- Precision: 0.942857, Recall: 0.846154, Micro-F1: 0.891892, Macro-F1: 0.528750, Loss: 0.260786.
+
+2024/01/12 06:52:22 - INFO : DEV performance at epoch 136 --- Precision: 0.400000, Recall: 0.296296, Micro-F1: 0.340426, Macro-F1: 0.048397, Loss: 0.382917.
+
+2024/01/12 06:52:22 - INFO : Epoch 136 Time Cost 3.037294387817383 secs.
+2024/01/12 06:52:24 - INFO : TRAIN performance at epoch 137 --- Precision: 0.916667, Recall: 0.846154, Micro-F1: 0.880000, Macro-F1: 0.500417, Loss: 0.257754.
+
+2024/01/12 06:52:25 - INFO : DEV performance at epoch 137 --- Precision: 0.380952, Recall: 0.296296, Micro-F1: 0.333333, Macro-F1: 0.048397, Loss: 0.381605.
+
+2024/01/12 06:52:25 - INFO : Epoch 137 Time Cost 3.2213122844696045 secs.
+2024/01/12 06:52:27 - INFO : TRAIN performance at epoch 138 --- Precision: 0.916667, Recall: 0.846154, Micro-F1: 0.880000, Macro-F1: 0.500417, Loss: 0.254556.
+
+2024/01/12 06:52:28 - INFO : DEV performance at epoch 138 --- Precision: 0.380952, Recall: 0.296296, Micro-F1: 0.333333, Macro-F1: 0.048397, Loss: 0.380087.
+
+2024/01/12 06:52:28 - INFO : Epoch 138 Time Cost 3.092522382736206 secs.
+2024/01/12 06:52:30 - INFO : TRAIN performance at epoch 139 --- Precision: 0.942857, Recall: 0.846154, Micro-F1: 0.891892, Macro-F1: 0.505417, Loss: 0.251468.
+
+2024/01/12 06:52:31 - INFO : DEV performance at epoch 139 --- Precision: 0.333333, Recall: 0.222222, Micro-F1: 0.266667, Macro-F1: 0.041667, Loss: 0.378916.
+
+2024/01/12 06:52:31 - INFO : Epoch 139 Time Cost 3.086968183517456 secs.
+2024/01/12 06:52:33 - INFO : TRAIN performance at epoch 140 --- Precision: 0.942857, Recall: 0.846154, Micro-F1: 0.891892, Macro-F1: 0.505417, Loss: 0.248654.
+
+2024/01/12 06:52:34 - INFO : DEV performance at epoch 140 --- Precision: 0.315789, Recall: 0.222222, Micro-F1: 0.260870, Macro-F1: 0.041667, Loss: 0.378147.
+
+2024/01/12 06:52:34 - INFO : Epoch 140 Time Cost 3.0955958366394043 secs.
+2024/01/12 06:52:36 - INFO : TRAIN performance at epoch 141 --- Precision: 0.942857, Recall: 0.846154, Micro-F1: 0.891892, Macro-F1: 0.510417, Loss: 0.246000.
+
+2024/01/12 06:52:37 - INFO : DEV performance at epoch 141 --- Precision: 0.360000, Recall: 0.333333, Micro-F1: 0.346154, Macro-F1: 0.056731, Loss: 0.377680.
+
+2024/01/12 06:52:37 - INFO : Improve Micro-F1 0.3404255319148936% --> 0.34615384615384615%
+2024/01/12 06:52:39 - INFO : Improve Macro-F1 0.049702380952380956% --> 0.05673076923076923%
+2024/01/12 06:52:42 - INFO : Epoch 141 Time Cost 8.358485221862793 secs.
+2024/01/12 06:52:44 - INFO : TRAIN performance at epoch 142 --- Precision: 0.916667, Recall: 0.846154, Micro-F1: 0.880000, Macro-F1: 0.508036, Loss: 0.243538.
+
+2024/01/12 06:52:45 - INFO : DEV performance at epoch 142 --- Precision: 0.346154, Recall: 0.333333, Micro-F1: 0.339623, Macro-F1: 0.054647, Loss: 0.377578.
+
+2024/01/12 06:52:45 - INFO : Epoch 142 Time Cost 3.0048418045043945 secs.
+2024/01/12 06:52:47 - INFO : TRAIN performance at epoch 143 --- Precision: 0.894737, Recall: 0.871795, Micro-F1: 0.883117, Macro-F1: 0.529464, Loss: 0.241707.
+
+2024/01/12 06:52:48 - INFO : DEV performance at epoch 143 --- Precision: 0.320000, Recall: 0.296296, Micro-F1: 0.307692, Macro-F1: 0.052083, Loss: 0.378374.
+
+2024/01/12 06:52:48 - INFO : Epoch 143 Time Cost 3.041827917098999 secs.
+2024/01/12 06:52:51 - INFO : TRAIN performance at epoch 144 --- Precision: 0.897436, Recall: 0.897436, Micro-F1: 0.897436, Macro-F1: 0.533929, Loss: 0.240052.
+
+2024/01/12 06:52:52 - INFO : DEV performance at epoch 144 --- Precision: 0.296296, Recall: 0.296296, Micro-F1: 0.296296, Macro-F1: 0.051389, Loss: 0.379368.
+
+2024/01/12 06:52:52 - INFO : Epoch 144 Time Cost 3.0819191932678223 secs.
+2024/01/12 06:52:54 - INFO : TRAIN performance at epoch 145 --- Precision: 0.878049, Recall: 0.923077, Micro-F1: 0.900000, Macro-F1: 0.532401, Loss: 0.237667.
+
+2024/01/12 06:52:55 - INFO : DEV performance at epoch 145 --- Precision: 0.285714, Recall: 0.296296, Micro-F1: 0.290909, Macro-F1: 0.050833, Loss: 0.379376.
+
+2024/01/12 06:52:55 - INFO : Epoch 145 Time Cost 3.0911693572998047 secs.
+2024/01/12 06:52:57 - INFO : TRAIN performance at epoch 146 --- Precision: 0.860465, Recall: 0.948718, Micro-F1: 0.902439, Macro-F1: 0.552401, Loss: 0.235780.
+
+2024/01/12 06:52:58 - INFO : DEV performance at epoch 146 --- Precision: 0.285714, Recall: 0.296296, Micro-F1: 0.290909, Macro-F1: 0.050833, Loss: 0.379765.
+
+2024/01/12 06:52:58 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:52:58 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:52:58 - INFO : Epoch 146 Time Cost 3.069838285446167 secs.
+2024/01/12 06:53:00 - INFO : TRAIN performance at epoch 147 --- Precision: 0.860465, Recall: 0.948718, Micro-F1: 0.902439, Macro-F1: 0.552401, Loss: 0.233732.
+
+2024/01/12 06:53:01 - INFO : DEV performance at epoch 147 --- Precision: 0.285714, Recall: 0.296296, Micro-F1: 0.290909, Macro-F1: 0.050833, Loss: 0.379882.
+
+2024/01/12 06:53:01 - INFO : Epoch 147 Time Cost 3.070828676223755 secs.
+2024/01/12 06:53:03 - INFO : TRAIN performance at epoch 148 --- Precision: 0.902439, Recall: 0.948718, Micro-F1: 0.925000, Macro-F1: 0.560179, Loss: 0.230358.
+
+2024/01/12 06:53:04 - INFO : DEV performance at epoch 148 --- Precision: 0.296296, Recall: 0.296296, Micro-F1: 0.296296, Macro-F1: 0.050833, Loss: 0.378099.
+
+2024/01/12 06:53:04 - INFO : Epoch 148 Time Cost 3.149507761001587 secs.
+2024/01/12 06:53:06 - INFO : TRAIN performance at epoch 149 --- Precision: 0.902439, Recall: 0.948718, Micro-F1: 0.925000, Macro-F1: 0.560179, Loss: 0.226875.
+
+2024/01/12 06:53:07 - INFO : DEV performance at epoch 149 --- Precision: 0.347826, Recall: 0.296296, Micro-F1: 0.320000, Macro-F1: 0.054722, Loss: 0.376055.
+
+2024/01/12 06:53:07 - INFO : Epoch 149 Time Cost 3.3407769203186035 secs.
+2024/01/12 06:53:09 - INFO : TRAIN performance at epoch 150 --- Precision: 0.923077, Recall: 0.923077, Micro-F1: 0.923077, Macro-F1: 0.538750, Loss: 0.223378.
+
+2024/01/12 06:53:10 - INFO : DEV performance at epoch 150 --- Precision: 0.350000, Recall: 0.259259, Micro-F1: 0.297872, Macro-F1: 0.052083, Loss: 0.373897.
+
+2024/01/12 06:53:10 - INFO : Epoch 150 Time Cost 3.0575244426727295 secs.
+2024/01/12 06:53:13 - INFO : TRAIN performance at epoch 151 --- Precision: 0.900000, Recall: 0.923077, Micro-F1: 0.911392, Macro-F1: 0.533750, Loss: 0.220446.
+
+2024/01/12 06:53:14 - INFO : DEV performance at epoch 151 --- Precision: 0.368421, Recall: 0.259259, Micro-F1: 0.304348, Macro-F1: 0.052976, Loss: 0.372254.
+
+2024/01/12 06:53:14 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:53:14 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:53:15 - INFO : Epoch 151 Time Cost 4.575852632522583 secs.
+2024/01/12 06:53:17 - INFO : TRAIN performance at epoch 152 --- Precision: 0.900000, Recall: 0.923077, Micro-F1: 0.911392, Macro-F1: 0.533750, Loss: 0.217399.
+
+2024/01/12 06:53:18 - INFO : DEV performance at epoch 152 --- Precision: 0.437500, Recall: 0.259259, Micro-F1: 0.325581, Macro-F1: 0.058333, Loss: 0.370360.
+
+2024/01/12 06:53:18 - INFO : Improve Macro-F1 0.05673076923076923% --> 0.05833333333333333%
+2024/01/12 06:53:20 - INFO : Epoch 152 Time Cost 5.292489528656006 secs.
+2024/01/12 06:53:22 - INFO : TRAIN performance at epoch 153 --- Precision: 0.900000, Recall: 0.923077, Micro-F1: 0.911392, Macro-F1: 0.533750, Loss: 0.214363.
+
+2024/01/12 06:53:23 - INFO : DEV performance at epoch 153 --- Precision: 0.437500, Recall: 0.259259, Micro-F1: 0.325581, Macro-F1: 0.058333, Loss: 0.368555.
+
+2024/01/12 06:53:23 - INFO : Epoch 153 Time Cost 3.0766706466674805 secs.
+2024/01/12 06:53:25 - INFO : TRAIN performance at epoch 154 --- Precision: 0.902439, Recall: 0.948718, Micro-F1: 0.925000, Macro-F1: 0.558750, Loss: 0.211875.
+
+2024/01/12 06:53:27 - INFO : DEV performance at epoch 154 --- Precision: 0.428571, Recall: 0.222222, Micro-F1: 0.292683, Macro-F1: 0.045833, Loss: 0.367247.
+
+2024/01/12 06:53:27 - INFO : Epoch 154 Time Cost 3.429271697998047 secs.
+2024/01/12 06:53:29 - INFO : TRAIN performance at epoch 155 --- Precision: 0.926829, Recall: 0.974359, Micro-F1: 0.950000, Macro-F1: 0.588750, Loss: 0.210311.
+
+2024/01/12 06:53:30 - INFO : DEV performance at epoch 155 --- Precision: 0.428571, Recall: 0.222222, Micro-F1: 0.292683, Macro-F1: 0.045833, Loss: 0.367092.
+
+2024/01/12 06:53:30 - INFO : Epoch 155 Time Cost 3.042910575866699 secs.
+2024/01/12 06:53:32 - INFO : TRAIN performance at epoch 156 --- Precision: 0.926829, Recall: 0.974359, Micro-F1: 0.950000, Macro-F1: 0.588750, Loss: 0.208809.
+
+2024/01/12 06:53:33 - INFO : DEV performance at epoch 156 --- Precision: 0.428571, Recall: 0.222222, Micro-F1: 0.292683, Macro-F1: 0.045833, Loss: 0.366971.
+
+2024/01/12 06:53:33 - INFO : Epoch 156 Time Cost 3.0683586597442627 secs.
+2024/01/12 06:53:35 - INFO : TRAIN performance at epoch 157 --- Precision: 0.926829, Recall: 0.974359, Micro-F1: 0.950000, Macro-F1: 0.588750, Loss: 0.207567.
+
+2024/01/12 06:53:36 - INFO : DEV performance at epoch 157 --- Precision: 0.400000, Recall: 0.222222, Micro-F1: 0.285714, Macro-F1: 0.045833, Loss: 0.367288.
+
+2024/01/12 06:53:36 - INFO : Epoch 157 Time Cost 3.0928337574005127 secs.
+2024/01/12 06:53:38 - INFO : TRAIN performance at epoch 158 --- Precision: 0.950000, Recall: 0.974359, Micro-F1: 0.962025, Macro-F1: 0.591429, Loss: 0.207169.
+
+2024/01/12 06:53:39 - INFO : DEV performance at epoch 158 --- Precision: 0.352941, Recall: 0.222222, Micro-F1: 0.272727, Macro-F1: 0.045833, Loss: 0.368667.
+
+2024/01/12 06:53:39 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:53:39 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:53:39 - INFO : Epoch 158 Time Cost 3.066474199295044 secs.
+2024/01/12 06:53:41 - INFO : TRAIN performance at epoch 159 --- Precision: 0.926829, Recall: 0.974359, Micro-F1: 0.950000, Macro-F1: 0.583095, Loss: 0.206297.
+
+2024/01/12 06:53:42 - INFO : DEV performance at epoch 159 --- Precision: 0.388889, Recall: 0.259259, Micro-F1: 0.311111, Macro-F1: 0.058333, Loss: 0.369572.
+
+2024/01/12 06:53:42 - INFO : Epoch 159 Time Cost 3.060863971710205 secs.
+2024/01/12 06:53:44 - INFO : TRAIN performance at epoch 160 --- Precision: 0.950000, Recall: 0.974359, Micro-F1: 0.962025, Macro-F1: 0.586667, Loss: 0.204806.
+
+2024/01/12 06:53:45 - INFO : DEV performance at epoch 160 --- Precision: 0.400000, Recall: 0.296296, Micro-F1: 0.340426, Macro-F1: 0.059848, Loss: 0.369590.
+
+2024/01/12 06:53:45 - INFO : Improve Macro-F1 0.05833333333333333% --> 0.05984848484848484%
+2024/01/12 06:53:47 - INFO : Epoch 160 Time Cost 5.206057548522949 secs.
+2024/01/12 06:53:49 - INFO : TRAIN performance at epoch 161 --- Precision: 0.928571, Recall: 1.000000, Micro-F1: 0.962963, Macro-F1: 0.608889, Loss: 0.202666.
+
+2024/01/12 06:53:50 - INFO : DEV performance at epoch 161 --- Precision: 0.333333, Recall: 0.296296, Micro-F1: 0.313725, Macro-F1: 0.054167, Loss: 0.369128.
+
+2024/01/12 06:53:51 - INFO : Epoch 161 Time Cost 4.233232021331787 secs.
+2024/01/12 06:53:54 - INFO : TRAIN performance at epoch 162 --- Precision: 0.928571, Recall: 1.000000, Micro-F1: 0.962963, Macro-F1: 0.608889, Loss: 0.200693.
+
+2024/01/12 06:53:55 - INFO : DEV performance at epoch 162 --- Precision: 0.307692, Recall: 0.296296, Micro-F1: 0.301887, Macro-F1: 0.051694, Loss: 0.368839.
+
+2024/01/12 06:53:55 - INFO : Epoch 162 Time Cost 3.0369467735290527 secs.
+2024/01/12 06:53:57 - INFO : TRAIN performance at epoch 163 --- Precision: 0.906977, Recall: 1.000000, Micro-F1: 0.951220, Macro-F1: 0.604722, Loss: 0.198276.
+
+2024/01/12 06:53:58 - INFO : DEV performance at epoch 163 --- Precision: 0.296296, Recall: 0.296296, Micro-F1: 0.296296, Macro-F1: 0.051694, Loss: 0.368438.
+
+2024/01/12 06:53:58 - INFO : Epoch 163 Time Cost 3.352470874786377 secs.
+2024/01/12 06:54:00 - INFO : TRAIN performance at epoch 164 --- Precision: 0.928571, Recall: 1.000000, Micro-F1: 0.962963, Macro-F1: 0.608889, Loss: 0.195905.
+
+2024/01/12 06:54:01 - INFO : DEV performance at epoch 164 --- Precision: 0.275862, Recall: 0.296296, Micro-F1: 0.285714, Macro-F1: 0.050107, Loss: 0.368288.
+
+2024/01/12 06:54:01 - INFO : Epoch 164 Time Cost 3.0550875663757324 secs.
+2024/01/12 06:54:03 - INFO : TRAIN performance at epoch 165 --- Precision: 0.928571, Recall: 1.000000, Micro-F1: 0.962963, Macro-F1: 0.608889, Loss: 0.194282.
+
+2024/01/12 06:54:04 - INFO : DEV performance at epoch 165 --- Precision: 0.266667, Recall: 0.296296, Micro-F1: 0.280702, Macro-F1: 0.050107, Loss: 0.369366.
+
+2024/01/12 06:54:04 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:54:04 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:54:04 - INFO : Epoch 165 Time Cost 3.3146026134490967 secs.
+2024/01/12 06:54:06 - INFO : TRAIN performance at epoch 166 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.616667, Loss: 0.192692.
+
+2024/01/12 06:54:07 - INFO : DEV performance at epoch 166 --- Precision: 0.266667, Recall: 0.296296, Micro-F1: 0.280702, Macro-F1: 0.051389, Loss: 0.370850.
+
+2024/01/12 06:54:07 - INFO : Epoch 166 Time Cost 3.1249823570251465 secs.
+2024/01/12 06:54:09 - INFO : TRAIN performance at epoch 167 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.616667, Loss: 0.190377.
+
+2024/01/12 06:54:11 - INFO : DEV performance at epoch 167 --- Precision: 0.233333, Recall: 0.259259, Micro-F1: 0.245614, Macro-F1: 0.049722, Loss: 0.371496.
+
+2024/01/12 06:54:11 - INFO : Epoch 167 Time Cost 3.149538993835449 secs.
+2024/01/12 06:54:13 - INFO : TRAIN performance at epoch 168 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.616667, Loss: 0.188446.
+
+2024/01/12 06:54:14 - INFO : DEV performance at epoch 168 --- Precision: 0.250000, Recall: 0.259259, Micro-F1: 0.254545, Macro-F1: 0.053472, Loss: 0.372573.
+
+2024/01/12 06:54:14 - INFO : Epoch 168 Time Cost 3.3439831733703613 secs.
+2024/01/12 06:54:16 - INFO : TRAIN performance at epoch 169 --- Precision: 0.951220, Recall: 1.000000, Micro-F1: 0.975000, Macro-F1: 0.612500, Loss: 0.186128.
+
+2024/01/12 06:54:17 - INFO : DEV performance at epoch 169 --- Precision: 0.222222, Recall: 0.222222, Micro-F1: 0.222222, Macro-F1: 0.049008, Loss: 0.372743.
+
+2024/01/12 06:54:17 - INFO : Epoch 169 Time Cost 3.273890733718872 secs.
+2024/01/12 06:54:19 - INFO : TRAIN performance at epoch 170 --- Precision: 0.928571, Recall: 1.000000, Micro-F1: 0.962963, Macro-F1: 0.607500, Loss: 0.183669.
+
+2024/01/12 06:54:20 - INFO : DEV performance at epoch 170 --- Precision: 0.230769, Recall: 0.222222, Micro-F1: 0.226415, Macro-F1: 0.049702, Loss: 0.372590.
+
+2024/01/12 06:54:20 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:54:20 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:54:20 - INFO : Epoch 170 Time Cost 3.1161062717437744 secs.
+2024/01/12 06:54:22 - INFO : TRAIN performance at epoch 171 --- Precision: 0.926829, Recall: 0.974359, Micro-F1: 0.950000, Macro-F1: 0.582500, Loss: 0.182336.
+
+2024/01/12 06:54:23 - INFO : DEV performance at epoch 171 --- Precision: 0.240000, Recall: 0.222222, Micro-F1: 0.230769, Macro-F1: 0.049702, Loss: 0.373924.
+
+2024/01/12 06:54:24 - INFO : Epoch 171 Time Cost 4.1759021282196045 secs.
+2024/01/12 06:54:26 - INFO : TRAIN performance at epoch 172 --- Precision: 0.951220, Recall: 1.000000, Micro-F1: 0.975000, Macro-F1: 0.611667, Loss: 0.181165.
+
+2024/01/12 06:54:28 - INFO : DEV performance at epoch 172 --- Precision: 0.240000, Recall: 0.222222, Micro-F1: 0.230769, Macro-F1: 0.049702, Loss: 0.375266.
+
+2024/01/12 06:54:28 - INFO : Epoch 172 Time Cost 3.088533401489258 secs.
+2024/01/12 06:54:30 - INFO : TRAIN performance at epoch 173 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.180269.
+
+2024/01/12 06:54:31 - INFO : DEV performance at epoch 173 --- Precision: 0.291667, Recall: 0.259259, Micro-F1: 0.274510, Macro-F1: 0.055060, Loss: 0.376561.
+
+2024/01/12 06:54:31 - INFO : Epoch 173 Time Cost 3.0472095012664795 secs.
+2024/01/12 06:54:33 - INFO : TRAIN performance at epoch 174 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.178769.
+
+2024/01/12 06:54:34 - INFO : DEV performance at epoch 174 --- Precision: 0.250000, Recall: 0.259259, Micro-F1: 0.254545, Macro-F1: 0.049946, Loss: 0.377089.
+
+2024/01/12 06:54:34 - INFO : Epoch 174 Time Cost 3.2255635261535645 secs.
+2024/01/12 06:54:36 - INFO : TRAIN performance at epoch 175 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.177217.
+
+2024/01/12 06:54:37 - INFO : DEV performance at epoch 175 --- Precision: 0.259259, Recall: 0.259259, Micro-F1: 0.259259, Macro-F1: 0.049946, Loss: 0.377629.
+
+2024/01/12 06:54:37 - WARNING : Performance has not been improved for 15 epochs, updating learning rate
+2024/01/12 06:54:37 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:54:37 - INFO : Epoch 175 Time Cost 3.464698314666748 secs.
+2024/01/12 06:54:39 - INFO : TRAIN performance at epoch 176 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.174801.
+
+2024/01/12 06:54:41 - INFO : DEV performance at epoch 176 --- Precision: 0.285714, Recall: 0.296296, Micro-F1: 0.290909, Macro-F1: 0.052976, Loss: 0.376796.
+
+2024/01/12 06:54:41 - INFO : Epoch 176 Time Cost 3.253546714782715 secs.
+2024/01/12 06:54:43 - INFO : TRAIN performance at epoch 177 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.172662.
+
+2024/01/12 06:54:44 - INFO : DEV performance at epoch 177 --- Precision: 0.285714, Recall: 0.296296, Micro-F1: 0.290909, Macro-F1: 0.052976, Loss: 0.376232.
+
+2024/01/12 06:54:44 - INFO : Epoch 177 Time Cost 3.253080129623413 secs.
+2024/01/12 06:54:46 - INFO : TRAIN performance at epoch 178 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.170055.
+
+2024/01/12 06:54:47 - INFO : DEV performance at epoch 178 --- Precision: 0.307692, Recall: 0.296296, Micro-F1: 0.301887, Macro-F1: 0.052976, Loss: 0.374980.
+
+2024/01/12 06:54:47 - INFO : Epoch 178 Time Cost 3.3022525310516357 secs.
+2024/01/12 06:54:49 - INFO : TRAIN performance at epoch 179 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.167223.
+
+2024/01/12 06:54:50 - INFO : DEV performance at epoch 179 --- Precision: 0.307692, Recall: 0.296296, Micro-F1: 0.301887, Macro-F1: 0.052976, Loss: 0.373626.
+
+2024/01/12 06:54:50 - INFO : Epoch 179 Time Cost 3.270433187484741 secs.
+2024/01/12 06:54:53 - INFO : TRAIN performance at epoch 180 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.164821.
+
+2024/01/12 06:54:54 - INFO : DEV performance at epoch 180 --- Precision: 0.296296, Recall: 0.296296, Micro-F1: 0.296296, Macro-F1: 0.052976, Loss: 0.373080.
+
+2024/01/12 06:54:54 - WARNING : Performance has not been improved for 20 epochs, updating learning rate
+2024/01/12 06:54:54 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:54:54 - INFO : Epoch 180 Time Cost 3.230283498764038 secs.
+2024/01/12 06:54:56 - INFO : TRAIN performance at epoch 181 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.161950.
+
+2024/01/12 06:54:57 - INFO : DEV performance at epoch 181 --- Precision: 0.307692, Recall: 0.296296, Micro-F1: 0.301887, Macro-F1: 0.054167, Loss: 0.371664.
+
+2024/01/12 06:54:58 - INFO : Epoch 181 Time Cost 4.5982630252838135 secs.
+2024/01/12 06:55:00 - INFO : TRAIN performance at epoch 182 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.616667, Loss: 0.159076.
+
+2024/01/12 06:55:01 - INFO : DEV performance at epoch 182 --- Precision: 0.307692, Recall: 0.296296, Micro-F1: 0.301887, Macro-F1: 0.054167, Loss: 0.370264.
+
+2024/01/12 06:55:01 - INFO : Epoch 182 Time Cost 3.295462131500244 secs.
+2024/01/12 06:55:04 - INFO : TRAIN performance at epoch 183 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.616667, Loss: 0.156462.
+
+2024/01/12 06:55:05 - INFO : DEV performance at epoch 183 --- Precision: 0.307692, Recall: 0.296296, Micro-F1: 0.301887, Macro-F1: 0.055833, Loss: 0.369373.
+
+2024/01/12 06:55:05 - INFO : Epoch 183 Time Cost 3.348680019378662 secs.
+2024/01/12 06:55:07 - INFO : TRAIN performance at epoch 184 --- Precision: 0.951220, Recall: 1.000000, Micro-F1: 0.975000, Macro-F1: 0.611667, Loss: 0.152829.
+
+2024/01/12 06:55:08 - INFO : DEV performance at epoch 184 --- Precision: 0.307692, Recall: 0.296296, Micro-F1: 0.301887, Macro-F1: 0.055833, Loss: 0.367430.
+
+2024/01/12 06:55:08 - INFO : Epoch 184 Time Cost 3.2873916625976562 secs.
+2024/01/12 06:55:10 - INFO : TRAIN performance at epoch 185 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.148808.
+
+2024/01/12 06:55:11 - INFO : DEV performance at epoch 185 --- Precision: 0.280000, Recall: 0.259259, Micro-F1: 0.269231, Macro-F1: 0.052803, Loss: 0.365079.
+
+2024/01/12 06:55:11 - WARNING : Performance has not been improved for 25 epochs, updating learning rate
+2024/01/12 06:55:11 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:55:11 - INFO : Epoch 185 Time Cost 3.2945783138275146 secs.
+2024/01/12 06:55:14 - INFO : TRAIN performance at epoch 186 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.144153.
+
+2024/01/12 06:55:15 - INFO : DEV performance at epoch 186 --- Precision: 0.250000, Recall: 0.222222, Micro-F1: 0.235294, Macro-F1: 0.047446, Loss: 0.361720.
+
+2024/01/12 06:55:15 - INFO : Epoch 186 Time Cost 3.589144468307495 secs.
+2024/01/12 06:55:17 - INFO : TRAIN performance at epoch 187 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.139892.
+
+2024/01/12 06:55:18 - INFO : DEV performance at epoch 187 --- Precision: 0.240000, Recall: 0.222222, Micro-F1: 0.230769, Macro-F1: 0.047446, Loss: 0.358386.
+
+2024/01/12 06:55:18 - INFO : Epoch 187 Time Cost 3.343653678894043 secs.
+2024/01/12 06:55:21 - INFO : TRAIN performance at epoch 188 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.136043.
+
+2024/01/12 06:55:22 - INFO : DEV performance at epoch 188 --- Precision: 0.250000, Recall: 0.222222, Micro-F1: 0.235294, Macro-F1: 0.048636, Loss: 0.355668.
+
+2024/01/12 06:55:22 - INFO : Epoch 188 Time Cost 3.6062276363372803 secs.
+2024/01/12 06:55:24 - INFO : TRAIN performance at epoch 189 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.132811.
+
+2024/01/12 06:55:25 - INFO : DEV performance at epoch 189 --- Precision: 0.285714, Recall: 0.222222, Micro-F1: 0.250000, Macro-F1: 0.051667, Loss: 0.353432.
+
+2024/01/12 06:55:25 - INFO : Epoch 189 Time Cost 3.275146484375 secs.
+2024/01/12 06:55:27 - INFO : TRAIN performance at epoch 190 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.130314.
+
+2024/01/12 06:55:28 - INFO : DEV performance at epoch 190 --- Precision: 0.285714, Recall: 0.222222, Micro-F1: 0.250000, Macro-F1: 0.051667, Loss: 0.352329.
+
+2024/01/12 06:55:28 - WARNING : Performance has not been improved for 30 epochs, updating learning rate
+2024/01/12 06:55:28 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:55:28 - INFO : Epoch 190 Time Cost 3.250236749649048 secs.
+2024/01/12 06:55:31 - INFO : TRAIN performance at epoch 191 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.128785.
+
+2024/01/12 06:55:32 - INFO : DEV performance at epoch 191 --- Precision: 0.272727, Recall: 0.222222, Micro-F1: 0.244898, Macro-F1: 0.051667, Loss: 0.352708.
+
+2024/01/12 06:55:33 - INFO : Epoch 191 Time Cost 4.486136198043823 secs.
+2024/01/12 06:55:35 - INFO : TRAIN performance at epoch 192 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.127758.
+
+2024/01/12 06:55:36 - INFO : DEV performance at epoch 192 --- Precision: 0.240000, Recall: 0.222222, Micro-F1: 0.230769, Macro-F1: 0.048810, Loss: 0.354224.
+
+2024/01/12 06:55:36 - INFO : Epoch 192 Time Cost 3.2968051433563232 secs.
+2024/01/12 06:55:39 - INFO : TRAIN performance at epoch 193 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.616667, Loss: 0.127037.
+
+2024/01/12 06:55:40 - INFO : DEV performance at epoch 193 --- Precision: 0.241379, Recall: 0.259259, Micro-F1: 0.250000, Macro-F1: 0.064583, Loss: 0.356152.
+
+2024/01/12 06:55:40 - INFO : Improve Macro-F1 0.05984848484848484% --> 0.06458333333333333%
+2024/01/12 06:55:42 - INFO : Epoch 193 Time Cost 5.912942409515381 secs.
+2024/01/12 06:55:44 - INFO : TRAIN performance at epoch 194 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.126162.
+
+2024/01/12 06:55:45 - INFO : DEV performance at epoch 194 --- Precision: 0.225806, Recall: 0.259259, Micro-F1: 0.241379, Macro-F1: 0.062222, Loss: 0.358179.
+
+2024/01/12 06:55:45 - INFO : Epoch 194 Time Cost 3.2399802207946777 secs.
+2024/01/12 06:55:48 - INFO : TRAIN performance at epoch 195 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.124875.
+
+2024/01/12 06:55:49 - INFO : DEV performance at epoch 195 --- Precision: 0.212121, Recall: 0.259259, Micro-F1: 0.233333, Macro-F1: 0.061667, Loss: 0.359640.
+
+2024/01/12 06:55:49 - INFO : Epoch 195 Time Cost 3.3968353271484375 secs.
+2024/01/12 06:55:51 - INFO : TRAIN performance at epoch 196 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.124044.
+
+2024/01/12 06:55:52 - INFO : DEV performance at epoch 196 --- Precision: 0.205882, Recall: 0.259259, Micro-F1: 0.229508, Macro-F1: 0.061667, Loss: 0.361434.
+
+2024/01/12 06:55:52 - INFO : Epoch 196 Time Cost 3.102114200592041 secs.
+2024/01/12 06:55:54 - INFO : TRAIN performance at epoch 197 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.123122.
+
+2024/01/12 06:55:55 - INFO : DEV performance at epoch 197 --- Precision: 0.200000, Recall: 0.259259, Micro-F1: 0.225806, Macro-F1: 0.061667, Loss: 0.362945.
+
+2024/01/12 06:55:55 - INFO : Epoch 197 Time Cost 3.406090021133423 secs.
+2024/01/12 06:55:57 - INFO : TRAIN performance at epoch 198 --- Precision: 0.975000, Recall: 1.000000, Micro-F1: 0.987342, Macro-F1: 0.620000, Loss: 0.121186.
+
+2024/01/12 06:55:58 - INFO : DEV performance at epoch 198 --- Precision: 0.205882, Recall: 0.259259, Micro-F1: 0.229508, Macro-F1: 0.063333, Loss: 0.363387.
+
+2024/01/12 06:55:58 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:55:58 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:55:58 - INFO : Epoch 198 Time Cost 3.1941616535186768 secs.
+2024/01/12 06:56:01 - INFO : TRAIN performance at epoch 199 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.119240.
+
+2024/01/12 06:56:02 - INFO : DEV performance at epoch 199 --- Precision: 0.194444, Recall: 0.259259, Micro-F1: 0.222222, Macro-F1: 0.061667, Loss: 0.363824.
+
+2024/01/12 06:56:02 - INFO : Epoch 199 Time Cost 3.1784110069274902 secs.
+2024/01/12 06:56:04 - INFO : TRAIN performance at epoch 200 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.117654.
+
+2024/01/12 06:56:05 - INFO : DEV performance at epoch 200 --- Precision: 0.162162, Recall: 0.222222, Micro-F1: 0.187500, Macro-F1: 0.043636, Loss: 0.364747.
+
+2024/01/12 06:56:05 - INFO : Epoch 200 Time Cost 3.1294667720794678 secs.
+2024/01/12 06:56:07 - INFO : TRAIN performance at epoch 201 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.116279.
+
+2024/01/12 06:56:08 - INFO : DEV performance at epoch 201 --- Precision: 0.176471, Recall: 0.222222, Micro-F1: 0.196721, Macro-F1: 0.043636, Loss: 0.365803.
+
+2024/01/12 06:56:09 - INFO : Epoch 201 Time Cost 4.334928750991821 secs.
+2024/01/12 06:56:11 - INFO : TRAIN performance at epoch 202 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.115134.
+
+2024/01/12 06:56:12 - INFO : DEV performance at epoch 202 --- Precision: 0.181818, Recall: 0.222222, Micro-F1: 0.200000, Macro-F1: 0.043636, Loss: 0.367014.
+
+2024/01/12 06:56:12 - INFO : Epoch 202 Time Cost 3.237536907196045 secs.
+2024/01/12 06:56:14 - INFO : TRAIN performance at epoch 203 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.113675.
+
+2024/01/12 06:56:15 - INFO : DEV performance at epoch 203 --- Precision: 0.181818, Recall: 0.222222, Micro-F1: 0.200000, Macro-F1: 0.045000, Loss: 0.367412.
+
+2024/01/12 06:56:15 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:56:15 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:56:15 - INFO : Epoch 203 Time Cost 3.1061761379241943 secs.
+2024/01/12 06:56:18 - INFO : TRAIN performance at epoch 204 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.111687.
+
+2024/01/12 06:56:19 - INFO : DEV performance at epoch 204 --- Precision: 0.181818, Recall: 0.222222, Micro-F1: 0.200000, Macro-F1: 0.045556, Loss: 0.366865.
+
+2024/01/12 06:56:19 - INFO : Epoch 204 Time Cost 3.288733720779419 secs.
+2024/01/12 06:56:21 - INFO : TRAIN performance at epoch 205 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.109303.
+
+2024/01/12 06:56:22 - INFO : DEV performance at epoch 205 --- Precision: 0.193548, Recall: 0.222222, Micro-F1: 0.206897, Macro-F1: 0.045556, Loss: 0.365274.
+
+2024/01/12 06:56:22 - INFO : Epoch 205 Time Cost 3.189758777618408 secs.
+2024/01/12 06:56:24 - INFO : TRAIN performance at epoch 206 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.106907.
+
+2024/01/12 06:56:26 - INFO : DEV performance at epoch 206 --- Precision: 0.200000, Recall: 0.222222, Micro-F1: 0.210526, Macro-F1: 0.045556, Loss: 0.363290.
+
+2024/01/12 06:56:26 - INFO : Epoch 206 Time Cost 3.6464297771453857 secs.
+2024/01/12 06:56:28 - INFO : TRAIN performance at epoch 207 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.104480.
+
+2024/01/12 06:56:29 - INFO : DEV performance at epoch 207 --- Precision: 0.206897, Recall: 0.222222, Micro-F1: 0.214286, Macro-F1: 0.046250, Loss: 0.361137.
+
+2024/01/12 06:56:29 - INFO : Epoch 207 Time Cost 3.2140676975250244 secs.
+2024/01/12 06:56:31 - INFO : TRAIN performance at epoch 208 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.102065.
+
+2024/01/12 06:56:32 - INFO : DEV performance at epoch 208 --- Precision: 0.222222, Recall: 0.222222, Micro-F1: 0.222222, Macro-F1: 0.048333, Loss: 0.358985.
+
+2024/01/12 06:56:32 - WARNING : Performance has not been improved for 15 epochs, updating learning rate
+2024/01/12 06:56:32 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:56:32 - INFO : Epoch 208 Time Cost 3.182912826538086 secs.
+2024/01/12 06:56:34 - INFO : TRAIN performance at epoch 209 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.099772.
+
+2024/01/12 06:56:35 - INFO : DEV performance at epoch 209 --- Precision: 0.230769, Recall: 0.222222, Micro-F1: 0.226415, Macro-F1: 0.048333, Loss: 0.357016.
+
+2024/01/12 06:56:35 - INFO : Epoch 209 Time Cost 3.265575647354126 secs.
+2024/01/12 06:56:38 - INFO : TRAIN performance at epoch 210 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.097513.
+
+2024/01/12 06:56:39 - INFO : DEV performance at epoch 210 --- Precision: 0.240000, Recall: 0.222222, Micro-F1: 0.230769, Macro-F1: 0.050000, Loss: 0.354773.
+
+2024/01/12 06:56:39 - INFO : Epoch 210 Time Cost 3.4017488956451416 secs.
+2024/01/12 06:56:41 - INFO : TRAIN performance at epoch 211 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.095557.
+
+2024/01/12 06:56:42 - INFO : DEV performance at epoch 211 --- Precision: 0.240000, Recall: 0.222222, Micro-F1: 0.230769, Macro-F1: 0.048636, Loss: 0.353312.
+
+2024/01/12 06:56:43 - INFO : Epoch 211 Time Cost 4.42219877243042 secs.
+2024/01/12 06:56:45 - INFO : TRAIN performance at epoch 212 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.093853.
+
+2024/01/12 06:56:46 - INFO : DEV performance at epoch 212 --- Precision: 0.250000, Recall: 0.222222, Micro-F1: 0.235294, Macro-F1: 0.048636, Loss: 0.352588.
+
+2024/01/12 06:56:46 - INFO : Epoch 212 Time Cost 3.2933943271636963 secs.
+2024/01/12 06:56:49 - INFO : TRAIN performance at epoch 213 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.092370.
+
+2024/01/12 06:56:50 - INFO : DEV performance at epoch 213 --- Precision: 0.240000, Recall: 0.222222, Micro-F1: 0.230769, Macro-F1: 0.046970, Loss: 0.352258.
+
+2024/01/12 06:56:50 - WARNING : Performance has not been improved for 20 epochs, updating learning rate
+2024/01/12 06:56:50 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:56:50 - INFO : Epoch 213 Time Cost 3.363767623901367 secs.
+2024/01/12 06:56:52 - INFO : TRAIN performance at epoch 214 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.091189.
+
+2024/01/12 06:56:53 - INFO : DEV performance at epoch 214 --- Precision: 0.206897, Recall: 0.222222, Micro-F1: 0.214286, Macro-F1: 0.044886, Loss: 0.352542.
+
+2024/01/12 06:56:53 - INFO : Epoch 214 Time Cost 3.2721188068389893 secs.
+2024/01/12 06:56:55 - INFO : TRAIN performance at epoch 215 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.090096.
+
+2024/01/12 06:56:56 - INFO : DEV performance at epoch 215 --- Precision: 0.206897, Recall: 0.222222, Micro-F1: 0.214286, Macro-F1: 0.044886, Loss: 0.352779.
+
+2024/01/12 06:56:56 - INFO : Epoch 215 Time Cost 3.269047260284424 secs.
+2024/01/12 06:56:58 - INFO : TRAIN performance at epoch 216 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.089298.
+
+2024/01/12 06:57:00 - INFO : DEV performance at epoch 216 --- Precision: 0.200000, Recall: 0.222222, Micro-F1: 0.210526, Macro-F1: 0.044192, Loss: 0.353489.
+
+2024/01/12 06:57:00 - INFO : Epoch 216 Time Cost 3.257516384124756 secs.
+2024/01/12 06:57:02 - INFO : TRAIN performance at epoch 217 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.088515.
+
+2024/01/12 06:57:03 - INFO : DEV performance at epoch 217 --- Precision: 0.176471, Recall: 0.222222, Micro-F1: 0.196721, Macro-F1: 0.044192, Loss: 0.354292.
+
+2024/01/12 06:57:03 - INFO : Epoch 217 Time Cost 3.214651346206665 secs.
+2024/01/12 06:57:05 - INFO : TRAIN performance at epoch 218 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.087586.
+
+2024/01/12 06:57:06 - INFO : DEV performance at epoch 218 --- Precision: 0.171429, Recall: 0.222222, Micro-F1: 0.193548, Macro-F1: 0.044192, Loss: 0.354972.
+
+2024/01/12 06:57:06 - WARNING : Performance has not been improved for 25 epochs, updating learning rate
+2024/01/12 06:57:06 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:57:06 - INFO : Epoch 218 Time Cost 3.237147331237793 secs.
+2024/01/12 06:57:08 - INFO : TRAIN performance at epoch 219 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.086819.
+
+2024/01/12 06:57:09 - INFO : DEV performance at epoch 219 --- Precision: 0.194444, Recall: 0.259259, Micro-F1: 0.222222, Macro-F1: 0.060859, Loss: 0.356148.
+
+2024/01/12 06:57:09 - INFO : Epoch 219 Time Cost 3.3051881790161133 secs.
+2024/01/12 06:57:11 - INFO : TRAIN performance at epoch 220 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.086199.
+
+2024/01/12 06:57:13 - INFO : DEV performance at epoch 220 --- Precision: 0.200000, Recall: 0.259259, Micro-F1: 0.225806, Macro-F1: 0.060303, Loss: 0.357338.
+
+2024/01/12 06:57:13 - INFO : Epoch 220 Time Cost 3.2298805713653564 secs.
+2024/01/12 06:57:15 - INFO : TRAIN performance at epoch 221 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.085575.
+
+2024/01/12 06:57:16 - INFO : DEV performance at epoch 221 --- Precision: 0.216216, Recall: 0.296296, Micro-F1: 0.250000, Macro-F1: 0.063333, Loss: 0.358365.
+
+2024/01/12 06:57:17 - INFO : Epoch 221 Time Cost 4.397323846817017 secs.
+2024/01/12 06:57:19 - INFO : TRAIN performance at epoch 222 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.084577.
+
+2024/01/12 06:57:20 - INFO : DEV performance at epoch 222 --- Precision: 0.210526, Recall: 0.296296, Micro-F1: 0.246154, Macro-F1: 0.064470, Loss: 0.358763.
+
+2024/01/12 06:57:20 - INFO : Epoch 222 Time Cost 3.2713751792907715 secs.
+2024/01/12 06:57:23 - INFO : TRAIN performance at epoch 223 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.083482.
+
+2024/01/12 06:57:24 - INFO : DEV performance at epoch 223 --- Precision: 0.210526, Recall: 0.296296, Micro-F1: 0.246154, Macro-F1: 0.065025, Loss: 0.358931.
+
+2024/01/12 06:57:24 - INFO : Improve Macro-F1 0.06458333333333333% --> 0.06502525252525251%
+2024/01/12 06:57:26 - INFO : Epoch 223 Time Cost 5.916301965713501 secs.
+2024/01/12 06:57:28 - INFO : TRAIN performance at epoch 224 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.082609.
+
+2024/01/12 06:57:29 - INFO : DEV performance at epoch 224 --- Precision: 0.210526, Recall: 0.296296, Micro-F1: 0.246154, Macro-F1: 0.065025, Loss: 0.359648.
+
+2024/01/12 06:57:29 - INFO : Epoch 224 Time Cost 3.266693592071533 secs.
+2024/01/12 06:57:32 - INFO : TRAIN performance at epoch 225 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.081527.
+
+2024/01/12 06:57:33 - INFO : DEV performance at epoch 225 --- Precision: 0.210526, Recall: 0.296296, Micro-F1: 0.246154, Macro-F1: 0.065025, Loss: 0.359946.
+
+2024/01/12 06:57:33 - INFO : Epoch 225 Time Cost 3.257991313934326 secs.
+2024/01/12 06:57:35 - INFO : TRAIN performance at epoch 226 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.080448.
+
+2024/01/12 06:57:36 - INFO : DEV performance at epoch 226 --- Precision: 0.195122, Recall: 0.296296, Micro-F1: 0.235294, Macro-F1: 0.065025, Loss: 0.359894.
+
+2024/01/12 06:57:36 - INFO : Epoch 226 Time Cost 3.3048453330993652 secs.
+2024/01/12 06:57:38 - INFO : TRAIN performance at epoch 227 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.079432.
+
+2024/01/12 06:57:39 - INFO : DEV performance at epoch 227 --- Precision: 0.200000, Recall: 0.296296, Micro-F1: 0.238806, Macro-F1: 0.066389, Loss: 0.359850.
+
+2024/01/12 06:57:39 - INFO : Improve Macro-F1 0.06502525252525251% --> 0.06638888888888889%
+2024/01/12 06:57:42 - INFO : Epoch 227 Time Cost 5.896737813949585 secs.
+2024/01/12 06:57:44 - INFO : TRAIN performance at epoch 228 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.078370.
+
+2024/01/12 06:57:45 - INFO : DEV performance at epoch 228 --- Precision: 0.205128, Recall: 0.296296, Micro-F1: 0.242424, Macro-F1: 0.068056, Loss: 0.359315.
+
+2024/01/12 06:57:45 - INFO : Improve Macro-F1 0.06638888888888889% --> 0.06805555555555555%
+2024/01/12 06:57:48 - INFO : Epoch 228 Time Cost 5.725654125213623 secs.
+2024/01/12 06:57:50 - INFO : TRAIN performance at epoch 229 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.077393.
+
+2024/01/12 06:57:51 - INFO : DEV performance at epoch 229 --- Precision: 0.205128, Recall: 0.296296, Micro-F1: 0.242424, Macro-F1: 0.068056, Loss: 0.358712.
+
+2024/01/12 06:57:51 - INFO : Epoch 229 Time Cost 3.5488736629486084 secs.
+2024/01/12 06:57:53 - INFO : TRAIN performance at epoch 230 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.076227.
+
+2024/01/12 06:57:54 - INFO : DEV performance at epoch 230 --- Precision: 0.200000, Recall: 0.296296, Micro-F1: 0.238806, Macro-F1: 0.066389, Loss: 0.357134.
+
+2024/01/12 06:57:54 - INFO : Epoch 230 Time Cost 3.241548538208008 secs.
+2024/01/12 06:57:56 - INFO : TRAIN performance at epoch 231 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.075339.
+
+2024/01/12 06:57:57 - INFO : DEV performance at epoch 231 --- Precision: 0.200000, Recall: 0.296296, Micro-F1: 0.238806, Macro-F1: 0.066389, Loss: 0.356157.
+
+2024/01/12 06:57:59 - INFO : Epoch 231 Time Cost 4.260673522949219 secs.
+2024/01/12 06:58:01 - INFO : TRAIN performance at epoch 232 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.074069.
+
+2024/01/12 06:58:02 - INFO : DEV performance at epoch 232 --- Precision: 0.216216, Recall: 0.296296, Micro-F1: 0.250000, Macro-F1: 0.068750, Loss: 0.354435.
+
+2024/01/12 06:58:02 - INFO : Improve Macro-F1 0.06805555555555555% --> 0.06874999999999999%
+2024/01/12 06:58:04 - INFO : Epoch 232 Time Cost 5.708881378173828 secs.
+2024/01/12 06:58:06 - INFO : TRAIN performance at epoch 233 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.072793.
+
+2024/01/12 06:58:08 - INFO : DEV performance at epoch 233 --- Precision: 0.228571, Recall: 0.296296, Micro-F1: 0.258065, Macro-F1: 0.070833, Loss: 0.352590.
+
+2024/01/12 06:58:08 - INFO : Improve Macro-F1 0.06874999999999999% --> 0.07083333333333333%
+2024/01/12 06:58:10 - INFO : Epoch 233 Time Cost 5.80076265335083 secs.
+2024/01/12 06:58:12 - INFO : TRAIN performance at epoch 234 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.071565.
+
+2024/01/12 06:58:13 - INFO : DEV performance at epoch 234 --- Precision: 0.235294, Recall: 0.296296, Micro-F1: 0.262295, Macro-F1: 0.070833, Loss: 0.350981.
+
+2024/01/12 06:58:13 - INFO : Epoch 234 Time Cost 3.3060929775238037 secs.
+2024/01/12 06:58:16 - INFO : TRAIN performance at epoch 235 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.070365.
+
+2024/01/12 06:58:17 - INFO : DEV performance at epoch 235 --- Precision: 0.242424, Recall: 0.296296, Micro-F1: 0.266667, Macro-F1: 0.070833, Loss: 0.349891.
+
+2024/01/12 06:58:17 - INFO : Epoch 235 Time Cost 3.185567855834961 secs.
+2024/01/12 06:58:19 - INFO : TRAIN performance at epoch 236 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.069075.
+
+2024/01/12 06:58:20 - INFO : DEV performance at epoch 236 --- Precision: 0.250000, Recall: 0.296296, Micro-F1: 0.271186, Macro-F1: 0.070833, Loss: 0.348683.
+
+2024/01/12 06:58:20 - INFO : Epoch 236 Time Cost 3.165937662124634 secs.
+2024/01/12 06:58:22 - INFO : TRAIN performance at epoch 237 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.067670.
+
+2024/01/12 06:58:23 - INFO : DEV performance at epoch 237 --- Precision: 0.225806, Recall: 0.259259, Micro-F1: 0.241379, Macro-F1: 0.065476, Loss: 0.347279.
+
+2024/01/12 06:58:23 - INFO : Epoch 237 Time Cost 3.164426326751709 secs.
+2024/01/12 06:58:26 - INFO : TRAIN performance at epoch 238 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.066326.
+
+2024/01/12 06:58:27 - INFO : DEV performance at epoch 238 --- Precision: 0.225806, Recall: 0.259259, Micro-F1: 0.241379, Macro-F1: 0.065476, Loss: 0.346106.
+
+2024/01/12 06:58:27 - INFO : Epoch 238 Time Cost 3.58484148979187 secs.
+2024/01/12 06:58:29 - INFO : TRAIN performance at epoch 239 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.065403.
+
+2024/01/12 06:58:30 - INFO : DEV performance at epoch 239 --- Precision: 0.218750, Recall: 0.259259, Micro-F1: 0.237288, Macro-F1: 0.065476, Loss: 0.346101.
+
+2024/01/12 06:58:30 - INFO : Epoch 239 Time Cost 3.3682329654693604 secs.
+2024/01/12 06:58:32 - INFO : TRAIN performance at epoch 240 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.064655.
+
+2024/01/12 06:58:33 - INFO : DEV performance at epoch 240 --- Precision: 0.212121, Recall: 0.259259, Micro-F1: 0.233333, Macro-F1: 0.065476, Loss: 0.346420.
+
+2024/01/12 06:58:33 - INFO : Epoch 240 Time Cost 3.14961838722229 secs.
+2024/01/12 06:58:35 - INFO : TRAIN performance at epoch 241 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.063966.
+
+2024/01/12 06:58:36 - INFO : DEV performance at epoch 241 --- Precision: 0.218750, Recall: 0.259259, Micro-F1: 0.237288, Macro-F1: 0.066667, Loss: 0.346832.
+
+2024/01/12 06:58:36 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2024/01/12 06:58:36 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:58:38 - INFO : Epoch 241 Time Cost 4.496737480163574 secs.
+2024/01/12 06:58:40 - INFO : TRAIN performance at epoch 242 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.063260.
+
+2024/01/12 06:58:41 - INFO : DEV performance at epoch 242 --- Precision: 0.205882, Recall: 0.259259, Micro-F1: 0.229508, Macro-F1: 0.065476, Loss: 0.347285.
+
+2024/01/12 06:58:41 - INFO : Epoch 242 Time Cost 3.1970598697662354 secs.
+2024/01/12 06:58:43 - INFO : TRAIN performance at epoch 243 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.062555.
+
+2024/01/12 06:58:45 - INFO : DEV performance at epoch 243 --- Precision: 0.205882, Recall: 0.259259, Micro-F1: 0.229508, Macro-F1: 0.065476, Loss: 0.347497.
+
+2024/01/12 06:58:45 - INFO : Epoch 243 Time Cost 3.772548198699951 secs.
+2024/01/12 06:58:47 - INFO : TRAIN performance at epoch 244 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.061941.
+
+2024/01/12 06:58:48 - INFO : DEV performance at epoch 244 --- Precision: 0.205882, Recall: 0.259259, Micro-F1: 0.229508, Macro-F1: 0.065476, Loss: 0.348113.
+
+2024/01/12 06:58:48 - INFO : Epoch 244 Time Cost 3.4034554958343506 secs.
+2024/01/12 06:58:50 - INFO : TRAIN performance at epoch 245 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.061445.
+
+2024/01/12 06:58:51 - INFO : DEV performance at epoch 245 --- Precision: 0.194444, Recall: 0.259259, Micro-F1: 0.222222, Macro-F1: 0.063889, Loss: 0.348971.
+
+2024/01/12 06:58:51 - INFO : Epoch 245 Time Cost 3.345574378967285 secs.
+2024/01/12 06:58:53 - INFO : TRAIN performance at epoch 246 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.061023.
+
+2024/01/12 06:58:55 - INFO : DEV performance at epoch 246 --- Precision: 0.194444, Recall: 0.259259, Micro-F1: 0.222222, Macro-F1: 0.063889, Loss: 0.350095.
+
+2024/01/12 06:58:55 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2024/01/12 06:58:55 - WARNING : Learning rate update 0.0001--->0.0001
+2024/01/12 06:58:55 - INFO : Epoch 246 Time Cost 3.261282444000244 secs.
+2024/01/12 06:58:57 - INFO : TRAIN performance at epoch 247 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.060665.
+
+2024/01/12 06:58:58 - INFO : DEV performance at epoch 247 --- Precision: 0.194444, Recall: 0.259259, Micro-F1: 0.222222, Macro-F1: 0.063889, Loss: 0.351076.
+
+2024/01/12 06:58:58 - INFO : Epoch 247 Time Cost 3.2932586669921875 secs.
+2024/01/12 06:59:00 - INFO : TRAIN performance at epoch 248 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.060237.
+
+2024/01/12 06:59:01 - INFO : DEV performance at epoch 248 --- Precision: 0.200000, Recall: 0.259259, Micro-F1: 0.225806, Macro-F1: 0.063889, Loss: 0.351813.
+
+2024/01/12 06:59:01 - INFO : Epoch 248 Time Cost 3.2791523933410645 secs.
+2024/01/12 06:59:03 - INFO : TRAIN performance at epoch 249 --- Precision: 1.000000, Recall: 1.000000, Micro-F1: 1.000000, Macro-F1: 0.625000, Loss: 0.060064.
+
+2024/01/12 06:59:04 - INFO : DEV performance at epoch 249 --- Precision: 0.189189, Recall: 0.259259, Micro-F1: 0.218750, Macro-F1: 0.063889, Loss: 0.353014.
+
+2024/01/12 06:59:04 - INFO : Epoch 249 Time Cost 3.344933271408081 secs.
+2024/01/12 06:59:06 - INFO : TEST performance at epoch 141 --- Precision: 0.391304, Recall: 0.321429, Micro-F1: 0.352941, Macro-F1: 0.050595, Loss: 0.392487.
+
+2024/01/12 06:59:07 - INFO : TEST performance at epoch 233 --- Precision: 0.214286, Recall: 0.321429, Micro-F1: 0.257143, Macro-F1: 0.076515, Loss: 0.375013.
+
